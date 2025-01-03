@@ -42,6 +42,7 @@ header nav ul {
 
     &:hover {
       background-color: #ffffff20;
+      cursor: pointer;
     }
   }
 
@@ -59,7 +60,7 @@ header nav ul {
 }
 
 .secondary-nav {
-  .tag-item a {
+  .tag-item {
     color: var(--clr-bg);
     border: 1px solid var(--clr-bg);
     background-color: #ffffff15;

@@ -358,12 +358,5 @@
       margin-inline: 0.25rem;
       color: var(--clr-text--muted);
     }
-
-    a {
-      cursor: pointer;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
   }
 }

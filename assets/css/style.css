@@ -41,9 +41,10 @@ body {
 .primary:hover,
 .secondary:hover {
   filter: brightness(0.9);
+  cursor: pointer;
 }
 
-.tag-item a {
+.tag-item {
   border-radius: 999rem;
   padding: 0.875rem 1rem;
   width: fit-content;
@@ -64,10 +65,11 @@ body {
   }
 }
 
-.tag-item:not(.active):hover a {
+.tag-item:hover {
   background: #aaaaaa20;
+  cursor: pointer;
 }
-.tag-item.active a {
+.tag-item.active {
   background: rgb(0, 108, 228, 10%);
   color: var(--clr-primary);
   border: 1px solid var(--clr-primary);

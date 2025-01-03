@@ -206,6 +206,27 @@
       padding: 0.6rem;
       background: var(--clr-bg);
       border-radius: 999rem;
+
+      input {
+        display: none;
+      }
+      transition: all 0.3s;
+    }
+    .fav-icon:hover {
+      background: var(--clr-bg--muted);
+    }
+    .fav-icon:active {
+      scale: 0.9;
+    }
+
+    .fav {
+      display: none;
+    }
+    .fav-icon:has(input[type="checkbox"]:checked) .fav {
+      display: block;
+    }
+    .fav-icon:has(input[type="checkbox"]:checked) .unfav {
+      display: none;
     }
   }
 }
