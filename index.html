@@ -1,0 +1,1786 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/resets.css" />
+    <link rel="stylesheet" href="assets/css/fonts.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/landing.css" />
+    <link rel="stylesheet" href="assets/css/sections.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/cards.css" />
+
+    <title>Booking.com</title>
+  </head>
+  <body>
+    <header>
+      <nav class="primary-nav">
+        <ul>
+          <li class="logo"><a href="/">Booking.com</a></li>
+          <li class="push nav-item" id="currency"><span>CNY</span></li>
+          <li id="set-language" class="nav-item">
+            <img
+              class="nav-img"
+              src="https://t-cf.bstatic.com/design-assets/assets/v3.138.1/images-flags/Us@3x.png"
+              alt="en-us"
+            />
+          </li>
+          <li class="nav-item img">
+            <svg
+              class="nav-img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="50px"
+            >
+              <path
+                d="M9.75 9a2.25 2.25 0 1 1 3 2.122 2.25 2.25 0 0 0-1.5 2.122v1.006a.75.75 0 0 0 1.5 0v-1.006c0-.318.2-.602.5-.708A3.75 3.75 0 1 0 8.25 9a.75.75 0 1 0 1.5 0M12 16.5a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25.75.75 0 0 0 0 1.5.375.375 0 1 1 0-.75.375.375 0 0 1 0 .75.75.75 0 0 0 0-1.5M22.5 12c0 5.799-4.701 10.5-10.5 10.5S1.5 17.799 1.5 12 6.201 1.5 12 1.5 22.5 6.201 22.5 12m1.5 0c0-6.627-5.373-12-12-12S0 5.373 0 12s5.373 12 12 12 12-5.373 12-12"
+              ></path>
+            </svg>
+          </li>
+          <li class="nav-item"><span>List your Property</span></li>
+          <li><button class="secondary">Register</button></li>
+          <li><button class="secondary">Sign in</button></li>
+        </ul>
+      </nav>
+      <nav class="secondary-nav">
+        <ul>
+          <li class="tag-item">
+            <a href="/">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="50px"
+              >
+                <path
+                  d="M2.75 12h18.5c.69 0 1.25.56 1.25 1.25V18l.75-.75H.75l.75.75v-4.75c0-.69.56-1.25 1.25-1.25m0-1.5A2.75 2.75 0 0 0 0 13.25V18c0 .414.336.75.75.75h22.5A.75.75 0 0 0 24 18v-4.75a2.75 2.75 0 0 0-2.75-2.75zM0 18v3a.75.75 0 0 0 1.5 0v-3A.75.75 0 0 0 0 18m22.5 0v3a.75.75 0 0 0 1.5 0v-3a.75.75 0 0 0-1.5 0m-.75-6.75V4.5a2.25 2.25 0 0 0-2.25-2.25h-15A2.25 2.25 0 0 0 2.25 4.5v6.75a.75.75 0 0 0 1.5 0V4.5a.75.75 0 0 1 .75-.75h15a.75.75 0 0 1 .75.75v6.75a.75.75 0 0 0 1.5 0m-13.25-3h7a.25.25 0 0 1 .25.25v2.75l.75-.75h-9l.75.75V8.5a.25.25 0 0 1 .25-.25m0-1.5A1.75 1.75 0 0 0 6.75 8.5v2.75c0 .414.336.75.75.75h9a.75.75 0 0 0 .75-.75V8.5a1.75 1.75 0 0 0-1.75-1.75z"
+                ></path>
+              </svg>
+              Stays
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="landing-wrapper">
+        <div class="landing">
+          <img
+            src="https://r-xx.bstatic.com/xdata/images/xphoto/1440x434/428203771.jpeg?k=abace62fa6ff7d143bc66e567ce3b821ee9a6046659f552fa9d4eb1ed03e9f7b&o="
+            alt=""
+            class="landing-bg"
+          />
+          <div class="landing-content">
+            <div>
+              <h1>
+                <p>Travel has never</p>
+                <p>felt this cozy</p>
+              </h1>
+              <p class="subtitle">Book an entire place all to yourself</p>
+            </div>
+            <button class="primary cta">Discover vacation rentals</button>
+          </div>
+        </div>
+        <div class="search-bar">
+          <div class="formgroup">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="50px"
+            >
+              <path
+                d="M2.75 12h18.5c.69 0 1.25.56 1.25 1.25V18l.75-.75H.75l.75.75v-4.75c0-.69.56-1.25 1.25-1.25m0-1.5A2.75 2.75 0 0 0 0 13.25V18c0 .414.336.75.75.75h22.5A.75.75 0 0 0 24 18v-4.75a2.75 2.75 0 0 0-2.75-2.75zM0 18v3a.75.75 0 0 0 1.5 0v-3A.75.75 0 0 0 0 18m22.5 0v3a.75.75 0 0 0 1.5 0v-3a.75.75 0 0 0-1.5 0m-.75-6.75V4.5a2.25 2.25 0 0 0-2.25-2.25h-15A2.25 2.25 0 0 0 2.25 4.5v6.75a.75.75 0 0 0 1.5 0V4.5a.75.75 0 0 1 .75-.75h15a.75.75 0 0 1 .75.75v6.75a.75.75 0 0 0 1.5 0m-13.25-3h7a.25.25 0 0 1 .25.25v2.75l.75-.75h-9l.75.75V8.5a.25.25 0 0 1 .25-.25m0-1.5A1.75 1.75 0 0 0 6.75 8.5v2.75c0 .414.336.75.75.75h9a.75.75 0 0 0 .75-.75V8.5a1.75 1.75 0 0 0-1.75-1.75z"
+              ></path>
+            </svg>
+            <input type="text" placeholder="Where are you going?" />
+          </div>
+          <div class="formgroup">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="50px"
+            >
+              <path
+                d="M22.5 13.5v8.25a.75.75 0 0 1-.75.75H2.25a.75.75 0 0 1-.75-.75V5.25a.75.75 0 0 1 .75-.75h19.5a.75.75 0 0 1 .75.75zm1.5 0V5.25A2.25 2.25 0 0 0 21.75 3H2.25A2.25 2.25 0 0 0 0 5.25v16.5A2.25 2.25 0 0 0 2.25 24h19.5A2.25 2.25 0 0 0 24 21.75zm-23.25-3h22.5a.75.75 0 0 0 0-1.5H.75a.75.75 0 0 0 0 1.5M7.5 6V.75a.75.75 0 0 0-1.5 0V6a.75.75 0 0 0 1.5 0M18 6V.75a.75.75 0 0 0-1.5 0V6A.75.75 0 0 0 18 6M5.095 14.03a.75.75 0 1 0 1.06-1.06.75.75 0 0 0-1.06 1.06m.53-1.28a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25.75.75 0 0 0 0 1.5.375.375 0 1 1 0-.75.375.375 0 0 1 0 .75.75.75 0 0 0 0-1.5m-.53 6.53a.75.75 0 1 0 1.06-1.06.75.75 0 0 0-1.06 1.06m.53-1.28a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25.75.75 0 0 0 0 1.5.375.375 0 1 1 0-.75.375.375 0 0 1 0 .75.75.75 0 0 0 0-1.5m5.845-3.97a.75.75 0 1 0 1.06-1.06.75.75 0 0 0-1.06 1.06m.53-1.28A1.125 1.125 0 1 0 12 15a1.125 1.125 0 0 0 0-2.25.75.75 0 0 0 0 1.5.375.375 0 1 1 0-.75.375.375 0 0 1 0 .75.75.75 0 0 0 0-1.5m-.53 6.53a.75.75 0 1 0 1.06-1.06.75.75 0 0 0-1.06 1.06M12 18a1.125 1.125 0 1 0 0 2.25A1.125 1.125 0 0 0 12 18a.75.75 0 0 0 0 1.5.375.375 0 1 1 0-.75.375.375 0 0 1 0 .75.75.75 0 0 0 0-1.5m5.845-3.97a.75.75 0 1 0 1.06-1.06.75.75 0 0 0-1.06 1.06m.53-1.28a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25.75.75 0 0 0 0 1.5.375.375 0 1 1 0-.75.375.375 0 0 1 0 .75.75.75 0 0 0 0-1.5m-.53 6.53a.75.75 0 1 0 1.06-1.06.75.75 0 0 0-1.06 1.06m.53-1.28a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25.75.75 0 0 0 0 1.5.375.375 0 1 1 0-.75.375.375 0 0 1 0 .75.75.75 0 0 0 0-1.5"
+              ></path>
+            </svg>
+          </div>
+          <div class="formgroup">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="50px"
+            >
+              <path
+                d="M16.5 6a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0M18 6A6 6 0 1 0 6 6a6 6 0 0 0 12 0M3 23.25a9 9 0 1 1 18 0 .75.75 0 0 0 1.5 0c0-5.799-4.701-10.5-10.5-10.5S1.5 17.451 1.5 23.25a.75.75 0 0 0 1.5 0"
+              ></path>
+            </svg>
+          </div>
+          <button class="primary">Search</button>
+        </div>
+      </section>
+      <section class="offers-wrapper section">
+        <div class="heading">
+          <h2>Offers</h2>
+          <p>Promotions, deals, and special offers for you</p>
+        </div>
+        <div class="card-wrapper">
+          <div class="card">
+            <div class="content">
+              <h3>Go for a good time, not a long time</h3>
+              <p>
+                Finish your year with a mini break. Save 15% or more when you
+                book and stay by January 7, 2025.
+              </p>
+              <button class="primary">Find Late Escape Deals</button>
+            </div>
+            <div class="img-wrapper">
+              <img
+                src="https://r-xx.bstatic.com/xdata/images/xphoto/500x500/372051085.jpeg?k=f5182852fa2c998e2b47cfd922da41ae16c42beb02fb70ecb57ee55ced3271f6&o="
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="card">
+            <div class="content">
+              <h3>Save on stays worldwide</h3>
+              <p>
+                Start your year with an adventure, saving 15% or more with Early
+                2025 Deals.
+              </p>
+              <button class="primary">Save 15% or more</button>
+            </div>
+            <div class="img-wrapper">
+              <img
+                src="https://r-xx.bstatic.com/xdata/images/xphoto/500x500/420460173.jpeg?k=0654940492bab9993284109d6136f220e700bbb4d5a0a972c4b4de3bdc0d8204&o="
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="card">
+            <div class="content">
+              <h3>Go for a good time, not a long time</h3>
+              <p>
+                Finish your year with a mini break. Save 15% or more when you
+                book and stay by January 7, 2025.
+              </p>
+              <button class="primary">Find Late Escape Deals</button>
+            </div>
+            <div class="img-wrapper">
+              <img
+                src="https://r-xx.bstatic.com/xdata/images/xphoto/500x500/372051085.jpeg?k=f5182852fa2c998e2b47cfd922da41ae16c42beb02fb70ecb57ee55ced3271f6&o="
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="card">
+            <div class="content">
+              <h3>Go for a good time, not a long time</h3>
+              <p>
+                Finish your year with a mini break. Save 15% or more when you
+                book and stay by January 7, 2025.
+              </p>
+              <button class="primary">Find Late Escape Deals</button>
+            </div>
+            <div class="img-wrapper">
+              <img
+                src="https://r-xx.bstatic.com/xdata/images/xphoto/500x500/372051085.jpeg?k=f5182852fa2c998e2b47cfd922da41ae16c42beb02fb70ecb57ee55ced3271f6&o="
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="heading">
+          <h2>Browse by property type</h2>
+        </div>
+        <div class="scroller-wrapper" style="--_height_img: 13.125rem">
+          <div class="control scroll-left">&lt;</div>
+          <div class="control scroll-right">&gt;</div>
+          <ul class="scroller">
+            <li class="img-card">
+              <img
+                src="https://q-xx.bstatic.com/xdata/images/hotel/263x210/595550862.jpeg?k=3514aa4abb76a6d19df104cb307b78b841ac0676967f24f4b860d289d55d3964&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Hotels</h3>
+              </div>
+            </li>
+            <li class="img-card">
+              <img
+                src="https://r-xx.bstatic.com/xdata/images/hotel/263x210/595548591.jpeg?k=01741bc3aef1a5233dd33794dda397083092c0215b153915f27ea489468e57a2&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Apartments</h3>
+              </div>
+            </li>
+            <li class="img-card">
+              <img
+                src="https://r-xx.bstatic.com/xdata/images/hotel/263x210/595551044.jpeg?k=262826efe8e21a0868105c01bf7113ed94de28492ee370f4225f00d1de0c6c44&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Resorts</h3>
+              </div>
+            </li>
+            <li class="img-card">
+              <img
+                src="https://r-xx.bstatic.com/xdata/images/hotel/263x210/620168315.jpeg?k=300d8d8059c8c5426ea81f65a30a7f93af09d377d4d8570bda1bd1f0c8f0767f&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Villas</h3>
+              </div>
+            </li>
+            <li class="img-card">
+              <img
+                src="https://q-xx.bstatic.com/xdata/images/hotel/263x210/595550862.jpeg?k=3514aa4abb76a6d19df104cb307b78b841ac0676967f24f4b860d289d55d3964&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Cabins</h3>
+              </div>
+            </li>
+            <li class="img-card">
+              <img
+                src="https://q-xx.bstatic.com/xdata/images/hotel/263x210/595550862.jpeg?k=3514aa4abb76a6d19df104cb307b78b841ac0676967f24f4b860d289d55d3964&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Cabins</h3>
+              </div>
+            </li>
+            <li class="img-card">
+              <img
+                src="https://q-xx.bstatic.com/xdata/images/hotel/263x210/595550862.jpeg?k=3514aa4abb76a6d19df104cb307b78b841ac0676967f24f4b860d289d55d3964&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Cabins</h3>
+              </div>
+            </li>
+            <li class="img-card">
+              <img
+                src="https://q-xx.bstatic.com/xdata/images/hotel/263x210/595550862.jpeg?k=3514aa4abb76a6d19df104cb307b78b841ac0676967f24f4b860d289d55d3964&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Cabins</h3>
+              </div>
+            </li>
+            <li class="img-card">
+              <img
+                src="https://q-xx.bstatic.com/xdata/images/hotel/263x210/595550862.jpeg?k=3514aa4abb76a6d19df104cb307b78b841ac0676967f24f4b860d289d55d3964&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Cabins</h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section">
+        <div class="heading">
+          <h2>Quick and easy trip planner</h2>
+          <p>Pick a vibe and explore the top destinations in China</p>
+        </div>
+        <ul class="tag-list">
+          <li class="tag-item active">
+            <a href="/"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="50px"
+              >
+                <path
+                  d="M16.5 3.75a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m1.5 0a3 3 0 1 0-6 0 3 3 0 0 0 6 0m-10.5 15a3 3 0 1 1-6 0 3 3 0 0 1 6 0m1.5 0a4.5 4.5 0 1 0-9 0 4.5 4.5 0 0 0 9 0m13.5 0a3 3 0 1 1-6 0 3 3 0 0 1 6 0m1.5 0a4.5 4.5 0 1 0-9 0 4.5 4.5 0 0 0 9 0m-12 .75a.75.75 0 0 1-.75-.75 6.73 6.73 0 0 0-3.642-5.994.75.75 0 0 1-.167-1.207l4.043-3.842a.75.75 0 0 1 1.187.208c.062.116.143.252.263.429.197.289.429.577.697.848.8.809 1.758 1.308 2.869 1.308a.75.75 0 0 1 0 1.5 5.56 5.56 0 0 1-4.137-1.966.75.75 0 0 0-1.089-.058l-1.452 1.38a.75.75 0 0 0 .031 1.116 8.22 8.22 0 0 1 2.897 6.277.75.75 0 0 1-.75.751m0 1.5a2.25 2.25 0 0 0 2.25-2.25 9.72 9.72 0 0 0-3.425-7.421l.03 1.114 1.453-1.38-1.089-.059a7.07 7.07 0 0 0 5.268 2.496A2.25 2.25 0 1 0 16.5 9c-.656 0-1.26-.315-1.803-.863a4.6 4.6 0 0 1-.695-.914 2.25 2.25 0 0 0-3.552-.604l-4.043 3.842a2.25 2.25 0 0 0 .51 3.626 5.24 5.24 0 0 1 2.833 4.662A2.25 2.25 0 0 0 12 21"
+                ></path></svg
+              >Outdoors
+            </a>
+          </li>
+          <li class="tag-item">
+            <a href="/"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="50px"
+              >
+                <path
+                  d="M2.75 6h9.5a.25.25 0 0 1-.25-.25v17.5l.75-.75H2.25l.75.75V5.75a.25.25 0 0 1-.25.25m0-1.5c-.69 0-1.25.56-1.25 1.25v17.5c0 .414.336.75.75.75h10.5a.75.75 0 0 0 .75-.75V5.75c0-.69-.56-1.25-1.25-1.25zm3-1.5h3.5A.25.25 0 0 1 9 2.75v2.5l.75-.75h-4.5l.75.75v-2.5a.25.25 0 0 1-.25.25m0-1.5c-.69 0-1.25.56-1.25 1.25v2.5c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-2.5c0-.69-.56-1.25-1.25-1.25zM5.25 9h4.5a.75.75 0 0 0 0-1.5h-4.5a.75.75 0 0 0 0 1.5m0 3h4.5a.75.75 0 0 0 0-1.5h-4.5a.75.75 0 0 0 0 1.5m0 3h4.5a.75.75 0 0 0 0-1.5h-4.5a.75.75 0 0 0 0 1.5m0 3h4.5a.75.75 0 0 0 0-1.5h-4.5a.75.75 0 0 0 0 1.5m0 3h4.5a.75.75 0 0 0 0-1.5h-4.5a.75.75 0 0 0 0 1.5M7.5.75v1.5a.75.75 0 0 0 1.5 0V.75a.75.75 0 0 0-1.5 0M15.75 24h6a.75.75 0 0 0 .75-.75V10.5A1.5 1.5 0 0 0 21 9h-4.5a1.5 1.5 0 0 0-1.5 1.5v12.75a.75.75 0 0 0 1.5 0V10.5H21v12.75l.75-.75h-6a.75.75 0 0 0 0 1.5M19.5 8.25v1.5a.75.75 0 0 0 1.5 0v-1.5a.75.75 0 0 0-1.5 0M.75 24h22.5a.75.75 0 0 0 0-1.5H.75a.75.75 0 0 0 0 1.5"
+                ></path></svg
+              >City
+            </a>
+          </li>
+          <li class="tag-item">
+            <a href="/"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="50px"
+              >
+                <path
+                  d="m.153 22.237.85 1.117c.634.76 1.724.856 2.456.244q.117-.099.216-.217l.944-1.132a.228.228 0 0 1 .349.001l.944 1.13a1.728 1.728 0 0 0 2.651.001l.944-1.132a.228.228 0 0 1 .349.001l.95 1.132a1.728 1.728 0 0 0 2.65 0l.942-1.133a.228.228 0 0 1 .349.001l.942 1.13a1.728 1.728 0 0 0 2.651.001l.944-1.132a.228.228 0 0 1 .349.001l.94 1.13a1.728 1.728 0 0 0 2.652.001l.585-.7a.75.75 0 1 0-1.15-.962l-.585.7a.228.228 0 0 1-.35 0l-.94-1.13a1.728 1.728 0 0 0-2.652-.001l-.944 1.132a.228.228 0 0 1-.349-.001l-.942-1.13a1.728 1.728 0 0 0-2.651-.001l-.943 1.132a.228.228 0 0 1-.348-.001l-.95-1.132a1.726 1.726 0 0 0-2.65 0l-.944 1.133a.228.228 0 0 1-.349-.001l-.944-1.13a1.728 1.728 0 0 0-2.65 0l-.945 1.13a.228.228 0 0 1-.349-.001l-.828-1.09a.75.75 0 1 0-1.194.91zm11.335-2.68A7.16 7.16 0 0 1 15.77 18h7.481a.75.75 0 0 0 0-1.5h-7.5a8.67 8.67 0 0 0-5.196 1.884.75.75 0 1 0 .934 1.174zM22.285 7.969a1.73 1.73 0 0 0 .781-2.711C19.43.713 12.8-.022 8.256 3.614a10.54 10.54 0 0 0-3.952 8.171A1.73 1.73 0 0 0 6.6 13.427l15.684-5.459zm-.494-1.416L6.107 12.01a.23.23 0 0 1-.304-.218 9.036 9.036 0 0 1 16.09-5.599.228.228 0 0 1-.102.359zm-9.459-4.2L11.69.504a.75.75 0 1 0-1.416.492l.643 1.848a.75.75 0 1 0 1.416-.492zm1.156 7.883 2.527 7.262a.75.75 0 1 0 1.416-.494l-2.527-7.26a.75.75 0 1 0-1.416.492"
+                ></path></svg
+              >Beach
+            </a>
+          </li>
+          <li class="tag-item">
+            <a href="/"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="50px"
+              >
+                <path
+                  d="m12.541 21.325-9.588-10a4.923 4.923 0 1 1 6.95-6.976l1.567 1.566a.75.75 0 0 0 1.06 0l1.566-1.566a4.923 4.923 0 0 1 6.963 6.962l-9.6 10.014zm-1.082 1.038a.75.75 0 0 0 1.082 0l9.59-10.003a6.42 6.42 0 0 0-.012-9.07 6.423 6.423 0 0 0-9.083-.001L11.47 4.854h1.06l-1.566-1.566a6.423 6.423 0 1 0-9.082 9.086l9.577 9.99z"
+                ></path></svg
+              >Romance
+            </a>
+          </li>
+          <li class="tag-item">
+            <a href="/"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="50px"
+              >
+                <path
+                  d="M11.72 14.295A7.35 7.35 0 0 1 8.997 8.85a7.15 7.15 0 0 1 2.25-4.972c.005-.005-.004-.005-.01-.01a7.17 7.17 0 0 1 2.261 5.03 7.33 7.33 0 0 1-2.722 5.397zm-.944 1.166a.75.75 0 0 0 .944 0 8.85 8.85 0 0 0 3.277-6.555 8.68 8.68 0 0 0-2.72-6.12 1.48 1.48 0 0 0-2.069.01 8.66 8.66 0 0 0-2.71 6.062 8.87 8.87 0 0 0 3.278 6.603m3.813-7.013A7.8 7.8 0 0 1 19.023 7.1l.003-.001a7.17 7.17 0 0 1-1.959 5.142 7.33 7.33 0 0 1-5.74 1.891.75.75 0 0 0-.158 1.492 8.85 8.85 0 0 0 6.953-2.318 8.68 8.68 0 0 0 2.404-6.233A1.495 1.495 0 0 0 19.029 5.6a9.3 9.3 0 0 0-5.282 1.608.75.75 0 1 0 .842 1.24M8.75 7.221A9.24 9.24 0 0 0 3.417 5.6a1.496 1.496 0 0 0-1.49 1.488 8.65 8.65 0 0 0 2.37 6.184 8.95 8.95 0 0 0 7.031 2.35.75.75 0 1 0-.158-1.49 7.43 7.43 0 0 1-5.82-1.927 7.14 7.14 0 0 1-1.923-5.091L3.426 7.1a7.75 7.75 0 0 1 4.476 1.357.75.75 0 0 0 .848-1.236m-4.944 3.966c-2.223.948-3.808 2.716-3.808 4.441 0 3.47 5.422 6 12 6a22.4 22.4 0 0 0 6.977-1.047.75.75 0 0 0 .523-.715v-3.488l-.75.75h4.383a.75.75 0 0 0 .715-.524c.1-.315.15-.643.152-.973 0-2.068-1.986-3.858-5.079-4.944a.75.75 0 1 0-.497 1.416c2.56.898 4.076 2.265 4.076 3.525 0 .176-.028.354-.082.524l.715.226v-.75h-4.383a.75.75 0 0 0-.75.75v3.488l.523-.715a21 21 0 0 1-6.516.977c-5.856 0-10.507-2.17-10.507-4.5 0-1.02 1.17-2.325 2.896-3.061a.75.75 0 0 0-.588-1.38"
+                ></path></svg
+              >Relax
+            </a>
+          </li>
+        </ul>
+        <div
+          class="scroller-wrapper"
+          style="--_height_img: 8.5rem; --_num-cards: 6"
+        >
+          <div class="control scroll-left">&lt;</div>
+          <div class="control scroll-right">&gt;</div>
+          <ul class="scroller">
+            <li class="img-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/xphoto/300x240/140046085.jpg?k=50f84d6388c242c58de20428624d2bc16c1f24b8e20420dbd655e74196c18f12&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Suzhou</h3>
+                <p>85 km away</p>
+              </div>
+            </li>
+            <li class="img-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/xphoto/300x240/140020079.jpg?k=5575f1ea9d95932507a0deadcca7f5a9193e097e7e8666e4fff4600224f22d33&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Shaoxing</h3>
+                <p>161 km away</p>
+              </div>
+            </li>
+            <li class="img-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/xphoto/300x240/140020188.jpg?k=75edaba3ed5381c6594c341f2101a448263ff9885f02dde7610403c6a96ea606&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Yiwu</h3>
+                <p>253 km away</p>
+              </div>
+            </li>
+            <li class="img-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/xphoto/300x240/140020100.jpg?k=16cbabc1197cd3146eb95ce2a0514fb10e0343977ae9cf7bdfb0d8dcec6c9965&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Nanjing</h3>
+                <p>272 km away</p>
+              </div>
+            </li>
+            <li class="img-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/xphoto/300x240/140020047.jpg?k=a94d99409673e4d111160db57c4971a007223b1bff93d130e1e72196f3c0ac51&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Wuhan</h3>
+                <p>691 km away</p>
+              </div>
+            </li>
+            <li class="img-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/xphoto/300x240/140020088.jpg?k=2a51fe62f6d153da932a4611a1ca0014d5c90d81551d293cab267246e585b171&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Quanzhou</h3>
+                <p>757 km away</p>
+              </div>
+            </li>
+            <li class="img-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/xphoto/300x240/140046085.jpg?k=50f84d6388c242c58de20428624d2bc16c1f24b8e20420dbd655e74196c18f12&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Suzhou</h3>
+                <p>85 km away</p>
+              </div>
+            </li>
+            <li class="img-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/xphoto/300x240/140046085.jpg?k=50f84d6388c242c58de20428624d2bc16c1f24b8e20420dbd655e74196c18f12&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Suzhou</h3>
+                <p>85 km away</p>
+              </div>
+            </li>
+            <li class="img-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/xphoto/300x240/140046085.jpg?k=50f84d6388c242c58de20428624d2bc16c1f24b8e20420dbd655e74196c18f12&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Suzhou</h3>
+                <p>85 km away</p>
+              </div>
+            </li>
+            <li class="img-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/xphoto/300x240/140046085.jpg?k=50f84d6388c242c58de20428624d2bc16c1f24b8e20420dbd655e74196c18f12&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Suzhou</h3>
+                <p>85 km away</p>
+              </div>
+            </li>
+            <li class="img-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/xphoto/300x240/140046085.jpg?k=50f84d6388c242c58de20428624d2bc16c1f24b8e20420dbd655e74196c18f12&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Suzhou</h3>
+                <p>85 km away</p>
+              </div>
+            </li>
+
+            <li class="img-card">
+              <img src="" alt="" />
+              <div class="content">
+                <h3></h3>
+                <p>km away</p>
+              </div>
+            </li>
+            <li class="img-card">
+              <img src="" alt="" />
+              <div class="content">
+                <h3></h3>
+                <p>km away</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section">
+        <div class="heading">
+          <h2>Explore China</h2>
+          <p>These popular destinations have a lot to offer</p>
+        </div>
+        <div
+          class="scroller-wrapper"
+          style="--_height_img: 8.5rem; --_num-cards: 6"
+        >
+          <div class="control scroll-left">&lt;</div>
+          <div class="control scroll-right">&gt;</div>
+          <ul class="scroller">
+            <li class="img-card">
+              <img
+                src="https://q-xx.bstatic.com/xdata/images/city/170x136/683831.jpg?k=bbe0665d459d2ca7a7be29dbae2f8f4c13924f320da1a2a7bdec4f30b1e9470a&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Shanghai</h3>
+                <p>1,840 properties</p>
+              </div>
+            </li>
+            <li class="img-card">
+              <img
+                src="https://q-xx.bstatic.com/xdata/images/city/170x136/683681.jpg?k=f832825373d70572c6e9caf42ec58a9290ff0e6d17b2ab1bb4fa7f36c5d9b3a9&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Beijing</h3>
+                <p>1,352 properties</p>
+              </div>
+            </li>
+            <li class="img-card">
+              <img
+                src="https://q-xx.bstatic.com/xdata/images/city/170x136/683767.jpg?k=bb33bb77be173f09b5e338b8e7ad3094e8ed6636005c97abfe365d3b8515f558&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Guangzhou</h3>
+                <p>1,739 properties</p>
+              </div>
+            </li>
+            <li class="img-card">
+              <img
+                src="https://r-xx.bstatic.com/xdata/images/city/170x136/683769.jpg?k=0e0f19efd51ad2ed1bbba910d7a343051fa9e2400bbb5bc97f2c49e19ca98d66&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Hangzhou</h3>
+                <p>724 properties</p>
+              </div>
+            </li>
+            <li class="img-card">
+              <img
+                src="https://q-xx.bstatic.com/xdata/images/city/170x136/683836.jpg?k=3b943a100222fee2a03c5b10d8d1b3f93753aa2725abdc91b75c4c7184b0e6e1&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Shenzhen</h3>
+                <p>694 properties</p>
+              </div>
+            </li>
+            <li class="img-card">
+              <img
+                src="https://q-xx.bstatic.com/xdata/images/city/170x136/683732.jpg?k=d757cbcfe0359c8f2a209508cf1f98252f9b5a41237dcebb57633a6d50fe5408&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Chendu</h3>
+                <p>1,381 properties</p>
+              </div>
+            </li>
+            <li class="img-card">
+              <img
+                src="https://q-xx.bstatic.com/xdata/images/city/170x136/683831.jpg?k=bbe0665d459d2ca7a7be29dbae2f8f4c13924f320da1a2a7bdec4f30b1e9470a&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Shanghai</h3>
+                <p>1,840 properties</p>
+              </div>
+            </li>
+            <li class="img-card">
+              <img
+                src="https://q-xx.bstatic.com/xdata/images/city/170x136/683831.jpg?k=bbe0665d459d2ca7a7be29dbae2f8f4c13924f320da1a2a7bdec4f30b1e9470a&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Shanghai</h3>
+                <p>1,840 properties</p>
+              </div>
+            </li>
+            <li class="img-card">
+              <img
+                src="https://q-xx.bstatic.com/xdata/images/city/170x136/683831.jpg?k=bbe0665d459d2ca7a7be29dbae2f8f4c13924f320da1a2a7bdec4f30b1e9470a&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Shanghai</h3>
+                <p>1,840 properties</p>
+              </div>
+            </li>
+            <li class="img-card">
+              <img
+                src="https://q-xx.bstatic.com/xdata/images/city/170x136/683831.jpg?k=bbe0665d459d2ca7a7be29dbae2f8f4c13924f320da1a2a7bdec4f30b1e9470a&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Shanghai</h3>
+                <p>1,840 properties</p>
+              </div>
+            </li>
+            <li class="img-card">
+              <img
+                src="https://q-xx.bstatic.com/xdata/images/city/170x136/683831.jpg?k=bbe0665d459d2ca7a7be29dbae2f8f4c13924f320da1a2a7bdec4f30b1e9470a&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Shanghai</h3>
+                <p>1,840 properties</p>
+              </div>
+            </li>
+            <li class="img-card">
+              <img
+                src="https://q-xx.bstatic.com/xdata/images/city/170x136/683831.jpg?k=bbe0665d459d2ca7a7be29dbae2f8f4c13924f320da1a2a7bdec4f30b1e9470a&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Shanghai</h3>
+                <p>1,840 properties</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section">
+        <div class="heading">
+          <h2>Trending destinations</h2>
+          <p>Most popular choices for travelers from China</p>
+        </div>
+        <div class="gallary">
+          <div class="row1">
+            <div class="card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/city/600x600/977242.jpg?k=72bfe23a6d7a496e0305b94bbb28ce197f3df2d6dd28986c3760a5f1c931664c&o="
+                alt=""
+              />
+              <div class="content">Paris🇫🇷</div>
+            </div>
+            <div class="card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/city/600x600/619763.jpg?k=3bfc62a779df5b92694287e9fc0b82d795f93700ddf8887d66f3191ee745dcc5&o="
+                alt=""
+              />
+              <div class="content">Tokyo🇯🇵</div>
+            </div>
+          </div>
+          <div class="row2">
+            <div class="card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/city/600x600/977255.jpg?k=701d538f315c17d17ca4eb5ff1a7bd0f8ed9222acebdaa6a212b638d04bef1c1&o="
+                alt=""
+              />
+              <div class="content">Bangkok🇹🇭</div>
+            </div>
+            <div class="card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/city/600x600/619709.jpg?k=31126b21ebbe0b19bc7721867fc25e874124ba3a4b95d173b0661dae601b5018&o="
+                alt=""
+              />
+              <div class="content">Osaka🇯🇵</div>
+            </div>
+            <div class="card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/city/600x600/981983.jpg?k=0ef727f86dcee3b03764b60c8c15203f4c885c0b185006c50144e8812f2b5c71&o="
+                alt=""
+              />
+              <div class="content">Barcelona🇪🇸</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="heading">
+          <h2>Stay at our top unique properties</h2>
+          <p>From castles and villas to boats and igloos, we have it all</p>
+        </div>
+        <div class="scroller-wrapper" style="--_height_img: 13.125rem">
+          <div class="control scroll-left">&lt;</div>
+          <div class="control scroll-right">&gt;</div>
+          <ul class="scroller">
+            <li class="price-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/hotel/square240/603301210.jpg?k=f49389ad6ad3771a617f5f739f6ad4a99c3c1920d1e962bc21699e760a47392f&o="
+                alt=""
+              />
+              <div class="content">
+                <div class="source-tag">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 32">
+                    <g fill="none">
+                      <rect
+                        width="80"
+                        height="32.049"
+                        fill="#004cb8"
+                        rx="4"
+                      ></rect>
+                      <path
+                        fill="#fff"
+                        d="m44.9668352 5.5533056c.216944 0 .339024.090062.3661543.269157l.0058137.082203v6.00384c0 .598784.15488 1.081728.468224 1.446784.311552.365184.752384.546944 1.318784.546944.8360411 0 1.5222034-.3462224 2.0583844-1.0386671l.1210716-.1659409v-6.79296c0-.204512.088396-.320138.2661313-.345849l.0816447-.005511h2.201984c.203392 0 .318388.090062.343959.269157l.005481.082203v9.97056c0 .204512-.089572.318864-.267687.3442565l-.081753.0054395h-1.787008c-.2109806 0-.3651605-.0750446-.4590737-.2251337l-.0419183-.0812983-.26176-.635136c-.290944.26304-.542208.467328-.752256.612736-.210048.147072-.507904.282112-.893568.406656-.385664.12288-.81088.185216-1.275648.185216-1.220608 0-2.186496-.375552-2.8992-1.128448-.6602514-.6974537-1.0146749-1.6397022-1.0619382-2.8224411l-.0054538-.2772069v-6.3552c0-.204512.094864-.320138.283563-.345849l.086613-.005511zm12.803968-.35456c1.773184 0 3.117824.562432 4.033664 1.687424.140112.165088.140476.320866.0022925.4651045l-.0677005.0611035-1.1776 1.095552c-.173824.131456-.34944.108928-.523392-.065792-.624896-.657664-1.358336-.986496-2.201856-.986496-.521728 0-.940032.07616-1.253376.230144-.311552.15232-.468224.361728-.468224.624768 0 .306304.19968.559104.59904.756352.401152.195584 1.057152.375552 1.972992.536576 2.49984.422272 3.749632 1.5264 3.749632 3.309056 0 1.079936-.42176 1.934976-1.263616 2.5632-.843648.628224-1.874816.941568-3.095424.941568-1.265408 0-2.306944-.266624-3.128192-.799616-.821248-.53312-1.39968-1.208064-1.733632-2.026752-.088928-.192304-.049966-.338254.116886-.44128l.079338-.041536 1.656192-.744192c.218624-.102144.37184-.043264.457984.174848.175616.453376.480256.825472.91584 1.117952s.958976.437888 1.570176.437888c.507776 0 .919296-.095232 1.230848-.283776.313344-.190464.468352-.446592.468352-.768512 0-.365184-.203136-.655872-.609408-.875776-.408064-.219776-1.119104-.423936-2.136576-.612608-1.031168-.190336-1.84896-.558976-2.451584-1.107712-.604288-.546816-.9056-1.230464-.9056-2.049152 0-.977792.37888-1.756672 1.134592-2.332928.754048-.576384 1.764608-.865408 3.028352-.865408zm-36.68096 0c1.642496 0 2.928512.507136 3.858176 1.523072.929664 1.014144 1.394432 2.289664 1.394432 3.823104v.700928c0 .233728-.115328.35136-.347648.35136h-7.499392c.160128.671488.476928 1.21152.948608 1.621632.47168.408448 1.07264.612736 1.79904.612736.988288 0 1.742336-.408448 2.265728-1.227136.087808-.131456.225536-.15232.414848-.065664l1.874816.78912c.21696.072704.268544.204288.151552.394624-1.06048 1.79648-2.628864 2.694784-4.706944 2.694784-1.570048 0-2.902528-.526208-4.000896-1.576704-1.096704-1.052288-1.645952-2.397056-1.645952-4.03264 0-1.635456.545792-2.980224 1.635584-4.032512 1.089792-1.050624 2.375808-1.576704 3.858048-1.576704zm-12.376576-5.1987456c2.16 0 4.13952.7363072 5.660544 1.9553792.07296.0590464.118144.1424.125056.232704.010368.0937728-.017408.1840768-.076416.2570112-.388992.4688768-1.19808 1.4448384-1.59744 1.9241344-.059008.0729344-.14592.11808-.239616.1250304-.093824.0069504-.184064-.0243072-.253568-.0833536-.958464-.8127232-2.226048-1.3059072-3.61856-1.3059072-2.976256 0-5.389824 2.3757312-5.389824 5.1542272s2.413568 5.036032 5.389824 5.036032c1.156352 0 2.226048-.340352 3.10464-.92032v-2.250624h-2.54912c-.09024 0-.18048-.034688-.246528-.100736-.062464-.06592-.100736-.152832-.100736-.246528v-2.181248c0-.093696.038272-.180608.100736-.246528.066048-.062592.156288-.100736.246528-.100736h5.025152c.190976 0 .347264.156288.347264.347264v6.307328c0 .208384-.09024.402816-.25344.538368-1.524608 1.219072-3.51104 1.955328-5.674496 1.955328-4.8098688 0-8.7132672-3.646848-8.7132672-8.1376 0-4.4942592 3.9033984-8.2592256 8.7132672-8.2592256zm24.552448 5.1987456c1.220608 0 2.162304.332288 2.823424.996864.6138971.61710629.9427154 1.47006759.9865573 2.56011373l.0050587.25575827v6.793088c0 .2044-.08967.318738-.2677238.3441288l-.0817162.0054392h-2.200192c-.203392 0-.318486-.088788-.3440815-.2674788l-.0054865-.0820892v-6.026368c0-1.315328-.602496-1.972992-1.809408-1.972992-.406272 0-.814336.124672-1.220608.373888-.33856.20618667-.6125867.42801778-.82008.66556741l-.116496.14441659v6.815488c0 .2044-.094864.318738-.2846778.3441288l-.0871622.0054392h-2.179584c-.215376 0-.337162-.088788-.3642433-.2674788l-.0058047-.0820892v-9.970688c0-.2044.094864-.320012.2834773-.34572125l.0865707-.00551075h1.7888c.2109806 0 .3587657.08134531.4422269.24194015l.0363651.08689185.284032.6144c.929664-.818688 1.947136-1.227136 3.050752-1.227136zm7.523712.265216c.216832 0 .337526.090062.3643115.26907125l.0057365.08216075v9.970688c0 .204512-.09359.318766-.2829995.344134l-.0870485.005434h-2.179584c-.216944 0-.337652-.08869-.3644393-.267442l-.0057367-.082126v-9.970688c0-.2044.09359-.320012.2830852-.34572125l.0870908-.00551075zm-19.699584 2.211456c-.63872 0-1.174144.162688-1.602816.49152s-.736896.756352-.926208 1.282432h5.013248c-.101504-.49664-.383872-.917248-.848768-1.259904-.46656-.342656-1.01056-.514048-1.635456-.514048z"
+                        transform="translate(9 7)"
+                      ></path>
+                      <path
+                        fill="#febb02"
+                        d="m37.6090112 2.1196288c0 .5691264.204288 1.058944.614656 1.4694272.410496.4084992.900224.6147328 1.469312.6147328s1.058816-.2062336 1.469312-.6147328c.408448-.4104832.614656-.9003008.614656-1.4694272s-.206208-1.0589312-.614656-1.4694272c-.410496-.4104832-.900224-.6147328-1.469312-.6147328s-1.058816.2042496-1.469312.6147328c-.410368.410496-.614656.9003008-.614656 1.4694272z"
+                        transform="translate(9 7)"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <h3>Emiri Hotel - Nana Bangkok</h3>
+                <p class="location">Bangkok, Thailand</p>
+                <div class="review">
+                  <div class="score">8.8</div>
+                  <div class="grade">Excellent</div>
+                  <div class="num-reviews">261 reviews</div>
+                </div>
+                <div class="price">
+                  <div class="desc">2 nights</div>
+                  <div class="old-price">CNY 1,531</div>
+                  <div class="new-price">CNY 986</div>
+                </div>
+              </div>
+            </li>
+            <li class="price-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/hotel/square240/489154352.jpg?k=1af586a70e71895832d82f0e404fc5709697fca61605189ba2d8d73df3c2c725&o="
+                alt=""
+              />
+              <div class="content">
+                <div class="source-tag">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 32">
+                    <g fill="none">
+                      <rect
+                        width="80"
+                        height="32.049"
+                        fill="#004cb8"
+                        rx="4"
+                      ></rect>
+                      <path
+                        fill="#fff"
+                        d="m44.9668352 5.5533056c.216944 0 .339024.090062.3661543.269157l.0058137.082203v6.00384c0 .598784.15488 1.081728.468224 1.446784.311552.365184.752384.546944 1.318784.546944.8360411 0 1.5222034-.3462224 2.0583844-1.0386671l.1210716-.1659409v-6.79296c0-.204512.088396-.320138.2661313-.345849l.0816447-.005511h2.201984c.203392 0 .318388.090062.343959.269157l.005481.082203v9.97056c0 .204512-.089572.318864-.267687.3442565l-.081753.0054395h-1.787008c-.2109806 0-.3651605-.0750446-.4590737-.2251337l-.0419183-.0812983-.26176-.635136c-.290944.26304-.542208.467328-.752256.612736-.210048.147072-.507904.282112-.893568.406656-.385664.12288-.81088.185216-1.275648.185216-1.220608 0-2.186496-.375552-2.8992-1.128448-.6602514-.6974537-1.0146749-1.6397022-1.0619382-2.8224411l-.0054538-.2772069v-6.3552c0-.204512.094864-.320138.283563-.345849l.086613-.005511zm12.803968-.35456c1.773184 0 3.117824.562432 4.033664 1.687424.140112.165088.140476.320866.0022925.4651045l-.0677005.0611035-1.1776 1.095552c-.173824.131456-.34944.108928-.523392-.065792-.624896-.657664-1.358336-.986496-2.201856-.986496-.521728 0-.940032.07616-1.253376.230144-.311552.15232-.468224.361728-.468224.624768 0 .306304.19968.559104.59904.756352.401152.195584 1.057152.375552 1.972992.536576 2.49984.422272 3.749632 1.5264 3.749632 3.309056 0 1.079936-.42176 1.934976-1.263616 2.5632-.843648.628224-1.874816.941568-3.095424.941568-1.265408 0-2.306944-.266624-3.128192-.799616-.821248-.53312-1.39968-1.208064-1.733632-2.026752-.088928-.192304-.049966-.338254.116886-.44128l.079338-.041536 1.656192-.744192c.218624-.102144.37184-.043264.457984.174848.175616.453376.480256.825472.91584 1.117952s.958976.437888 1.570176.437888c.507776 0 .919296-.095232 1.230848-.283776.313344-.190464.468352-.446592.468352-.768512 0-.365184-.203136-.655872-.609408-.875776-.408064-.219776-1.119104-.423936-2.136576-.612608-1.031168-.190336-1.84896-.558976-2.451584-1.107712-.604288-.546816-.9056-1.230464-.9056-2.049152 0-.977792.37888-1.756672 1.134592-2.332928.754048-.576384 1.764608-.865408 3.028352-.865408zm-36.68096 0c1.642496 0 2.928512.507136 3.858176 1.523072.929664 1.014144 1.394432 2.289664 1.394432 3.823104v.700928c0 .233728-.115328.35136-.347648.35136h-7.499392c.160128.671488.476928 1.21152.948608 1.621632.47168.408448 1.07264.612736 1.79904.612736.988288 0 1.742336-.408448 2.265728-1.227136.087808-.131456.225536-.15232.414848-.065664l1.874816.78912c.21696.072704.268544.204288.151552.394624-1.06048 1.79648-2.628864 2.694784-4.706944 2.694784-1.570048 0-2.902528-.526208-4.000896-1.576704-1.096704-1.052288-1.645952-2.397056-1.645952-4.03264 0-1.635456.545792-2.980224 1.635584-4.032512 1.089792-1.050624 2.375808-1.576704 3.858048-1.576704zm-12.376576-5.1987456c2.16 0 4.13952.7363072 5.660544 1.9553792.07296.0590464.118144.1424.125056.232704.010368.0937728-.017408.1840768-.076416.2570112-.388992.4688768-1.19808 1.4448384-1.59744 1.9241344-.059008.0729344-.14592.11808-.239616.1250304-.093824.0069504-.184064-.0243072-.253568-.0833536-.958464-.8127232-2.226048-1.3059072-3.61856-1.3059072-2.976256 0-5.389824 2.3757312-5.389824 5.1542272s2.413568 5.036032 5.389824 5.036032c1.156352 0 2.226048-.340352 3.10464-.92032v-2.250624h-2.54912c-.09024 0-.18048-.034688-.246528-.100736-.062464-.06592-.100736-.152832-.100736-.246528v-2.181248c0-.093696.038272-.180608.100736-.246528.066048-.062592.156288-.100736.246528-.100736h5.025152c.190976 0 .347264.156288.347264.347264v6.307328c0 .208384-.09024.402816-.25344.538368-1.524608 1.219072-3.51104 1.955328-5.674496 1.955328-4.8098688 0-8.7132672-3.646848-8.7132672-8.1376 0-4.4942592 3.9033984-8.2592256 8.7132672-8.2592256zm24.552448 5.1987456c1.220608 0 2.162304.332288 2.823424.996864.6138971.61710629.9427154 1.47006759.9865573 2.56011373l.0050587.25575827v6.793088c0 .2044-.08967.318738-.2677238.3441288l-.0817162.0054392h-2.200192c-.203392 0-.318486-.088788-.3440815-.2674788l-.0054865-.0820892v-6.026368c0-1.315328-.602496-1.972992-1.809408-1.972992-.406272 0-.814336.124672-1.220608.373888-.33856.20618667-.6125867.42801778-.82008.66556741l-.116496.14441659v6.815488c0 .2044-.094864.318738-.2846778.3441288l-.0871622.0054392h-2.179584c-.215376 0-.337162-.088788-.3642433-.2674788l-.0058047-.0820892v-9.970688c0-.2044.094864-.320012.2834773-.34572125l.0865707-.00551075h1.7888c.2109806 0 .3587657.08134531.4422269.24194015l.0363651.08689185.284032.6144c.929664-.818688 1.947136-1.227136 3.050752-1.227136zm7.523712.265216c.216832 0 .337526.090062.3643115.26907125l.0057365.08216075v9.970688c0 .204512-.09359.318766-.2829995.344134l-.0870485.005434h-2.179584c-.216944 0-.337652-.08869-.3644393-.267442l-.0057367-.082126v-9.970688c0-.2044.09359-.320012.2830852-.34572125l.0870908-.00551075zm-19.699584 2.211456c-.63872 0-1.174144.162688-1.602816.49152s-.736896.756352-.926208 1.282432h5.013248c-.101504-.49664-.383872-.917248-.848768-1.259904-.46656-.342656-1.01056-.514048-1.635456-.514048z"
+                        transform="translate(9 7)"
+                      ></path>
+                      <path
+                        fill="#febb02"
+                        d="m37.6090112 2.1196288c0 .5691264.204288 1.058944.614656 1.4694272.410496.4084992.900224.6147328 1.469312.6147328s1.058816-.2062336 1.469312-.6147328c.408448-.4104832.614656-.9003008.614656-1.4694272s-.206208-1.0589312-.614656-1.4694272c-.410496-.4104832-.900224-.6147328-1.469312-.6147328s-1.058816.2042496-1.469312.6147328c-.410368.410496-.614656.9003008-.614656 1.4694272z"
+                        transform="translate(9 7)"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <h3>ZAITO Kikukawa SRS Apartment 新築マンション</h3>
+                <p class="location">Tokyo, Japan</p>
+                <div class="review">
+                  <div class="score">9</div>
+                  <div class="grade">Wonderful</div>
+                  <div class="num-reviews">184 reviews</div>
+                </div>
+                <div class="price">
+                  <div class="desc">2 nights</div>
+                  <div class="old-price">CNY 2,434</div>
+                  <div class="new-price">CNY 2,191</div>
+                </div>
+              </div>
+            </li>
+            <li class="price-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/hotel/square240/387118061.jpg?k=e169a828f7de040d8711db321c719c1d90571741032d94a3ac43c963be1f638f&o="
+                alt=""
+              />
+              <div class="content">
+                <div class="source-tag">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 32">
+                    <g fill="none">
+                      <rect
+                        width="80"
+                        height="32.049"
+                        fill="#004cb8"
+                        rx="4"
+                      ></rect>
+                      <path
+                        fill="#fff"
+                        d="m44.9668352 5.5533056c.216944 0 .339024.090062.3661543.269157l.0058137.082203v6.00384c0 .598784.15488 1.081728.468224 1.446784.311552.365184.752384.546944 1.318784.546944.8360411 0 1.5222034-.3462224 2.0583844-1.0386671l.1210716-.1659409v-6.79296c0-.204512.088396-.320138.2661313-.345849l.0816447-.005511h2.201984c.203392 0 .318388.090062.343959.269157l.005481.082203v9.97056c0 .204512-.089572.318864-.267687.3442565l-.081753.0054395h-1.787008c-.2109806 0-.3651605-.0750446-.4590737-.2251337l-.0419183-.0812983-.26176-.635136c-.290944.26304-.542208.467328-.752256.612736-.210048.147072-.507904.282112-.893568.406656-.385664.12288-.81088.185216-1.275648.185216-1.220608 0-2.186496-.375552-2.8992-1.128448-.6602514-.6974537-1.0146749-1.6397022-1.0619382-2.8224411l-.0054538-.2772069v-6.3552c0-.204512.094864-.320138.283563-.345849l.086613-.005511zm12.803968-.35456c1.773184 0 3.117824.562432 4.033664 1.687424.140112.165088.140476.320866.0022925.4651045l-.0677005.0611035-1.1776 1.095552c-.173824.131456-.34944.108928-.523392-.065792-.624896-.657664-1.358336-.986496-2.201856-.986496-.521728 0-.940032.07616-1.253376.230144-.311552.15232-.468224.361728-.468224.624768 0 .306304.19968.559104.59904.756352.401152.195584 1.057152.375552 1.972992.536576 2.49984.422272 3.749632 1.5264 3.749632 3.309056 0 1.079936-.42176 1.934976-1.263616 2.5632-.843648.628224-1.874816.941568-3.095424.941568-1.265408 0-2.306944-.266624-3.128192-.799616-.821248-.53312-1.39968-1.208064-1.733632-2.026752-.088928-.192304-.049966-.338254.116886-.44128l.079338-.041536 1.656192-.744192c.218624-.102144.37184-.043264.457984.174848.175616.453376.480256.825472.91584 1.117952s.958976.437888 1.570176.437888c.507776 0 .919296-.095232 1.230848-.283776.313344-.190464.468352-.446592.468352-.768512 0-.365184-.203136-.655872-.609408-.875776-.408064-.219776-1.119104-.423936-2.136576-.612608-1.031168-.190336-1.84896-.558976-2.451584-1.107712-.604288-.546816-.9056-1.230464-.9056-2.049152 0-.977792.37888-1.756672 1.134592-2.332928.754048-.576384 1.764608-.865408 3.028352-.865408zm-36.68096 0c1.642496 0 2.928512.507136 3.858176 1.523072.929664 1.014144 1.394432 2.289664 1.394432 3.823104v.700928c0 .233728-.115328.35136-.347648.35136h-7.499392c.160128.671488.476928 1.21152.948608 1.621632.47168.408448 1.07264.612736 1.79904.612736.988288 0 1.742336-.408448 2.265728-1.227136.087808-.131456.225536-.15232.414848-.065664l1.874816.78912c.21696.072704.268544.204288.151552.394624-1.06048 1.79648-2.628864 2.694784-4.706944 2.694784-1.570048 0-2.902528-.526208-4.000896-1.576704-1.096704-1.052288-1.645952-2.397056-1.645952-4.03264 0-1.635456.545792-2.980224 1.635584-4.032512 1.089792-1.050624 2.375808-1.576704 3.858048-1.576704zm-12.376576-5.1987456c2.16 0 4.13952.7363072 5.660544 1.9553792.07296.0590464.118144.1424.125056.232704.010368.0937728-.017408.1840768-.076416.2570112-.388992.4688768-1.19808 1.4448384-1.59744 1.9241344-.059008.0729344-.14592.11808-.239616.1250304-.093824.0069504-.184064-.0243072-.253568-.0833536-.958464-.8127232-2.226048-1.3059072-3.61856-1.3059072-2.976256 0-5.389824 2.3757312-5.389824 5.1542272s2.413568 5.036032 5.389824 5.036032c1.156352 0 2.226048-.340352 3.10464-.92032v-2.250624h-2.54912c-.09024 0-.18048-.034688-.246528-.100736-.062464-.06592-.100736-.152832-.100736-.246528v-2.181248c0-.093696.038272-.180608.100736-.246528.066048-.062592.156288-.100736.246528-.100736h5.025152c.190976 0 .347264.156288.347264.347264v6.307328c0 .208384-.09024.402816-.25344.538368-1.524608 1.219072-3.51104 1.955328-5.674496 1.955328-4.8098688 0-8.7132672-3.646848-8.7132672-8.1376 0-4.4942592 3.9033984-8.2592256 8.7132672-8.2592256zm24.552448 5.1987456c1.220608 0 2.162304.332288 2.823424.996864.6138971.61710629.9427154 1.47006759.9865573 2.56011373l.0050587.25575827v6.793088c0 .2044-.08967.318738-.2677238.3441288l-.0817162.0054392h-2.200192c-.203392 0-.318486-.088788-.3440815-.2674788l-.0054865-.0820892v-6.026368c0-1.315328-.602496-1.972992-1.809408-1.972992-.406272 0-.814336.124672-1.220608.373888-.33856.20618667-.6125867.42801778-.82008.66556741l-.116496.14441659v6.815488c0 .2044-.094864.318738-.2846778.3441288l-.0871622.0054392h-2.179584c-.215376 0-.337162-.088788-.3642433-.2674788l-.0058047-.0820892v-9.970688c0-.2044.094864-.320012.2834773-.34572125l.0865707-.00551075h1.7888c.2109806 0 .3587657.08134531.4422269.24194015l.0363651.08689185.284032.6144c.929664-.818688 1.947136-1.227136 3.050752-1.227136zm7.523712.265216c.216832 0 .337526.090062.3643115.26907125l.0057365.08216075v9.970688c0 .204512-.09359.318766-.2829995.344134l-.0870485.005434h-2.179584c-.216944 0-.337652-.08869-.3644393-.267442l-.0057367-.082126v-9.970688c0-.2044.09359-.320012.2830852-.34572125l.0870908-.00551075zm-19.699584 2.211456c-.63872 0-1.174144.162688-1.602816.49152s-.736896.756352-.926208 1.282432h5.013248c-.101504-.49664-.383872-.917248-.848768-1.259904-.46656-.342656-1.01056-.514048-1.635456-.514048z"
+                        transform="translate(9 7)"
+                      ></path>
+                      <path
+                        fill="#febb02"
+                        d="m37.6090112 2.1196288c0 .5691264.204288 1.058944.614656 1.4694272.410496.4084992.900224.6147328 1.469312.6147328s1.058816-.2062336 1.469312-.6147328c.408448-.4104832.614656-.9003008.614656-1.4694272s-.206208-1.0589312-.614656-1.4694272c-.410496-.4104832-.900224-.6147328-1.469312-.6147328s-1.058816.2042496-1.469312.6147328c-.410368.410496-.614656.9003008-.614656 1.4694272z"
+                        transform="translate(9 7)"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <h3>Rinn Gion Shirakawa</h3>
+                <p class="location">Kyoto, Japan</p>
+                <div class="review">
+                  <div class="score">9.1</div>
+                  <div class="grade">Wonderful</div>
+                  <div class="num-reviews">1,358 reviews</div>
+                </div>
+                <div class="discount">Late Escape Deal</div>
+                <div class="price">
+                  <div class="desc">2 nights</div>
+                  <div class="old-price">CNY 11,704</div>
+                  <div class="new-price">CNY6,999</div>
+                </div>
+              </div>
+            </li>
+            <li class="price-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/hotel/square240/257552238.jpg?k=04a936d7a60eb9141e5e9eb32b06da8ebe54a5cc52190804555977005b91542b&o="
+                alt=""
+              />
+              <div class="content">
+                <div class="source-tag">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 32">
+                    <g fill="none">
+                      <rect
+                        width="80"
+                        height="32.049"
+                        fill="#004cb8"
+                        rx="4"
+                      ></rect>
+                      <path
+                        fill="#fff"
+                        d="m44.9668352 5.5533056c.216944 0 .339024.090062.3661543.269157l.0058137.082203v6.00384c0 .598784.15488 1.081728.468224 1.446784.311552.365184.752384.546944 1.318784.546944.8360411 0 1.5222034-.3462224 2.0583844-1.0386671l.1210716-.1659409v-6.79296c0-.204512.088396-.320138.2661313-.345849l.0816447-.005511h2.201984c.203392 0 .318388.090062.343959.269157l.005481.082203v9.97056c0 .204512-.089572.318864-.267687.3442565l-.081753.0054395h-1.787008c-.2109806 0-.3651605-.0750446-.4590737-.2251337l-.0419183-.0812983-.26176-.635136c-.290944.26304-.542208.467328-.752256.612736-.210048.147072-.507904.282112-.893568.406656-.385664.12288-.81088.185216-1.275648.185216-1.220608 0-2.186496-.375552-2.8992-1.128448-.6602514-.6974537-1.0146749-1.6397022-1.0619382-2.8224411l-.0054538-.2772069v-6.3552c0-.204512.094864-.320138.283563-.345849l.086613-.005511zm12.803968-.35456c1.773184 0 3.117824.562432 4.033664 1.687424.140112.165088.140476.320866.0022925.4651045l-.0677005.0611035-1.1776 1.095552c-.173824.131456-.34944.108928-.523392-.065792-.624896-.657664-1.358336-.986496-2.201856-.986496-.521728 0-.940032.07616-1.253376.230144-.311552.15232-.468224.361728-.468224.624768 0 .306304.19968.559104.59904.756352.401152.195584 1.057152.375552 1.972992.536576 2.49984.422272 3.749632 1.5264 3.749632 3.309056 0 1.079936-.42176 1.934976-1.263616 2.5632-.843648.628224-1.874816.941568-3.095424.941568-1.265408 0-2.306944-.266624-3.128192-.799616-.821248-.53312-1.39968-1.208064-1.733632-2.026752-.088928-.192304-.049966-.338254.116886-.44128l.079338-.041536 1.656192-.744192c.218624-.102144.37184-.043264.457984.174848.175616.453376.480256.825472.91584 1.117952s.958976.437888 1.570176.437888c.507776 0 .919296-.095232 1.230848-.283776.313344-.190464.468352-.446592.468352-.768512 0-.365184-.203136-.655872-.609408-.875776-.408064-.219776-1.119104-.423936-2.136576-.612608-1.031168-.190336-1.84896-.558976-2.451584-1.107712-.604288-.546816-.9056-1.230464-.9056-2.049152 0-.977792.37888-1.756672 1.134592-2.332928.754048-.576384 1.764608-.865408 3.028352-.865408zm-36.68096 0c1.642496 0 2.928512.507136 3.858176 1.523072.929664 1.014144 1.394432 2.289664 1.394432 3.823104v.700928c0 .233728-.115328.35136-.347648.35136h-7.499392c.160128.671488.476928 1.21152.948608 1.621632.47168.408448 1.07264.612736 1.79904.612736.988288 0 1.742336-.408448 2.265728-1.227136.087808-.131456.225536-.15232.414848-.065664l1.874816.78912c.21696.072704.268544.204288.151552.394624-1.06048 1.79648-2.628864 2.694784-4.706944 2.694784-1.570048 0-2.902528-.526208-4.000896-1.576704-1.096704-1.052288-1.645952-2.397056-1.645952-4.03264 0-1.635456.545792-2.980224 1.635584-4.032512 1.089792-1.050624 2.375808-1.576704 3.858048-1.576704zm-12.376576-5.1987456c2.16 0 4.13952.7363072 5.660544 1.9553792.07296.0590464.118144.1424.125056.232704.010368.0937728-.017408.1840768-.076416.2570112-.388992.4688768-1.19808 1.4448384-1.59744 1.9241344-.059008.0729344-.14592.11808-.239616.1250304-.093824.0069504-.184064-.0243072-.253568-.0833536-.958464-.8127232-2.226048-1.3059072-3.61856-1.3059072-2.976256 0-5.389824 2.3757312-5.389824 5.1542272s2.413568 5.036032 5.389824 5.036032c1.156352 0 2.226048-.340352 3.10464-.92032v-2.250624h-2.54912c-.09024 0-.18048-.034688-.246528-.100736-.062464-.06592-.100736-.152832-.100736-.246528v-2.181248c0-.093696.038272-.180608.100736-.246528.066048-.062592.156288-.100736.246528-.100736h5.025152c.190976 0 .347264.156288.347264.347264v6.307328c0 .208384-.09024.402816-.25344.538368-1.524608 1.219072-3.51104 1.955328-5.674496 1.955328-4.8098688 0-8.7132672-3.646848-8.7132672-8.1376 0-4.4942592 3.9033984-8.2592256 8.7132672-8.2592256zm24.552448 5.1987456c1.220608 0 2.162304.332288 2.823424.996864.6138971.61710629.9427154 1.47006759.9865573 2.56011373l.0050587.25575827v6.793088c0 .2044-.08967.318738-.2677238.3441288l-.0817162.0054392h-2.200192c-.203392 0-.318486-.088788-.3440815-.2674788l-.0054865-.0820892v-6.026368c0-1.315328-.602496-1.972992-1.809408-1.972992-.406272 0-.814336.124672-1.220608.373888-.33856.20618667-.6125867.42801778-.82008.66556741l-.116496.14441659v6.815488c0 .2044-.094864.318738-.2846778.3441288l-.0871622.0054392h-2.179584c-.215376 0-.337162-.088788-.3642433-.2674788l-.0058047-.0820892v-9.970688c0-.2044.094864-.320012.2834773-.34572125l.0865707-.00551075h1.7888c.2109806 0 .3587657.08134531.4422269.24194015l.0363651.08689185.284032.6144c.929664-.818688 1.947136-1.227136 3.050752-1.227136zm7.523712.265216c.216832 0 .337526.090062.3643115.26907125l.0057365.08216075v9.970688c0 .204512-.09359.318766-.2829995.344134l-.0870485.005434h-2.179584c-.216944 0-.337652-.08869-.3644393-.267442l-.0057367-.082126v-9.970688c0-.2044.09359-.320012.2830852-.34572125l.0870908-.00551075zm-19.699584 2.211456c-.63872 0-1.174144.162688-1.602816.49152s-.736896.756352-.926208 1.282432h5.013248c-.101504-.49664-.383872-.917248-.848768-1.259904-.46656-.342656-1.01056-.514048-1.635456-.514048z"
+                        transform="translate(9 7)"
+                      ></path>
+                      <path
+                        fill="#febb02"
+                        d="m37.6090112 2.1196288c0 .5691264.204288 1.058944.614656 1.4694272.410496.4084992.900224.6147328 1.469312.6147328s1.058816-.2062336 1.469312-.6147328c.408448-.4104832.614656-.9003008.614656-1.4694272s-.206208-1.0589312-.614656-1.4694272c-.410496-.4104832-.900224-.6147328-1.469312-.6147328s-1.058816.2042496-1.469312.6147328c-.410368.410496-.614656.9003008-.614656 1.4694272z"
+                        transform="translate(9 7)"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <h3>THA City Loft by TH District</h3>
+                <p class="location">Bangkok, Thailand</p>
+                <div class="review">
+                  <div class="score">8.1</div>
+                  <div class="grade">Very Good</div>
+                  <div class="num-reviews">848 reviews</div>
+                </div>
+                <div class="discount">Late Escape Deal</div>
+                <div class="price">
+                  <div class="desc">2 nights</div>
+                  <div class="old-price">CNY 1,428</div>
+                  <div class="new-price">CNY 854</div>
+                </div>
+              </div>
+            </li>
+            <li class="price-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/hotel/square240/603301210.jpg?k=f49389ad6ad3771a617f5f739f6ad4a99c3c1920d1e962bc21699e760a47392f&o="
+                alt=""
+              />
+              <div class="content">
+                <div class="source-tag">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 32">
+                    <g fill="none">
+                      <rect
+                        width="80"
+                        height="32.049"
+                        fill="#004cb8"
+                        rx="4"
+                      ></rect>
+                      <path
+                        fill="#fff"
+                        d="m44.9668352 5.5533056c.216944 0 .339024.090062.3661543.269157l.0058137.082203v6.00384c0 .598784.15488 1.081728.468224 1.446784.311552.365184.752384.546944 1.318784.546944.8360411 0 1.5222034-.3462224 2.0583844-1.0386671l.1210716-.1659409v-6.79296c0-.204512.088396-.320138.2661313-.345849l.0816447-.005511h2.201984c.203392 0 .318388.090062.343959.269157l.005481.082203v9.97056c0 .204512-.089572.318864-.267687.3442565l-.081753.0054395h-1.787008c-.2109806 0-.3651605-.0750446-.4590737-.2251337l-.0419183-.0812983-.26176-.635136c-.290944.26304-.542208.467328-.752256.612736-.210048.147072-.507904.282112-.893568.406656-.385664.12288-.81088.185216-1.275648.185216-1.220608 0-2.186496-.375552-2.8992-1.128448-.6602514-.6974537-1.0146749-1.6397022-1.0619382-2.8224411l-.0054538-.2772069v-6.3552c0-.204512.094864-.320138.283563-.345849l.086613-.005511zm12.803968-.35456c1.773184 0 3.117824.562432 4.033664 1.687424.140112.165088.140476.320866.0022925.4651045l-.0677005.0611035-1.1776 1.095552c-.173824.131456-.34944.108928-.523392-.065792-.624896-.657664-1.358336-.986496-2.201856-.986496-.521728 0-.940032.07616-1.253376.230144-.311552.15232-.468224.361728-.468224.624768 0 .306304.19968.559104.59904.756352.401152.195584 1.057152.375552 1.972992.536576 2.49984.422272 3.749632 1.5264 3.749632 3.309056 0 1.079936-.42176 1.934976-1.263616 2.5632-.843648.628224-1.874816.941568-3.095424.941568-1.265408 0-2.306944-.266624-3.128192-.799616-.821248-.53312-1.39968-1.208064-1.733632-2.026752-.088928-.192304-.049966-.338254.116886-.44128l.079338-.041536 1.656192-.744192c.218624-.102144.37184-.043264.457984.174848.175616.453376.480256.825472.91584 1.117952s.958976.437888 1.570176.437888c.507776 0 .919296-.095232 1.230848-.283776.313344-.190464.468352-.446592.468352-.768512 0-.365184-.203136-.655872-.609408-.875776-.408064-.219776-1.119104-.423936-2.136576-.612608-1.031168-.190336-1.84896-.558976-2.451584-1.107712-.604288-.546816-.9056-1.230464-.9056-2.049152 0-.977792.37888-1.756672 1.134592-2.332928.754048-.576384 1.764608-.865408 3.028352-.865408zm-36.68096 0c1.642496 0 2.928512.507136 3.858176 1.523072.929664 1.014144 1.394432 2.289664 1.394432 3.823104v.700928c0 .233728-.115328.35136-.347648.35136h-7.499392c.160128.671488.476928 1.21152.948608 1.621632.47168.408448 1.07264.612736 1.79904.612736.988288 0 1.742336-.408448 2.265728-1.227136.087808-.131456.225536-.15232.414848-.065664l1.874816.78912c.21696.072704.268544.204288.151552.394624-1.06048 1.79648-2.628864 2.694784-4.706944 2.694784-1.570048 0-2.902528-.526208-4.000896-1.576704-1.096704-1.052288-1.645952-2.397056-1.645952-4.03264 0-1.635456.545792-2.980224 1.635584-4.032512 1.089792-1.050624 2.375808-1.576704 3.858048-1.576704zm-12.376576-5.1987456c2.16 0 4.13952.7363072 5.660544 1.9553792.07296.0590464.118144.1424.125056.232704.010368.0937728-.017408.1840768-.076416.2570112-.388992.4688768-1.19808 1.4448384-1.59744 1.9241344-.059008.0729344-.14592.11808-.239616.1250304-.093824.0069504-.184064-.0243072-.253568-.0833536-.958464-.8127232-2.226048-1.3059072-3.61856-1.3059072-2.976256 0-5.389824 2.3757312-5.389824 5.1542272s2.413568 5.036032 5.389824 5.036032c1.156352 0 2.226048-.340352 3.10464-.92032v-2.250624h-2.54912c-.09024 0-.18048-.034688-.246528-.100736-.062464-.06592-.100736-.152832-.100736-.246528v-2.181248c0-.093696.038272-.180608.100736-.246528.066048-.062592.156288-.100736.246528-.100736h5.025152c.190976 0 .347264.156288.347264.347264v6.307328c0 .208384-.09024.402816-.25344.538368-1.524608 1.219072-3.51104 1.955328-5.674496 1.955328-4.8098688 0-8.7132672-3.646848-8.7132672-8.1376 0-4.4942592 3.9033984-8.2592256 8.7132672-8.2592256zm24.552448 5.1987456c1.220608 0 2.162304.332288 2.823424.996864.6138971.61710629.9427154 1.47006759.9865573 2.56011373l.0050587.25575827v6.793088c0 .2044-.08967.318738-.2677238.3441288l-.0817162.0054392h-2.200192c-.203392 0-.318486-.088788-.3440815-.2674788l-.0054865-.0820892v-6.026368c0-1.315328-.602496-1.972992-1.809408-1.972992-.406272 0-.814336.124672-1.220608.373888-.33856.20618667-.6125867.42801778-.82008.66556741l-.116496.14441659v6.815488c0 .2044-.094864.318738-.2846778.3441288l-.0871622.0054392h-2.179584c-.215376 0-.337162-.088788-.3642433-.2674788l-.0058047-.0820892v-9.970688c0-.2044.094864-.320012.2834773-.34572125l.0865707-.00551075h1.7888c.2109806 0 .3587657.08134531.4422269.24194015l.0363651.08689185.284032.6144c.929664-.818688 1.947136-1.227136 3.050752-1.227136zm7.523712.265216c.216832 0 .337526.090062.3643115.26907125l.0057365.08216075v9.970688c0 .204512-.09359.318766-.2829995.344134l-.0870485.005434h-2.179584c-.216944 0-.337652-.08869-.3644393-.267442l-.0057367-.082126v-9.970688c0-.2044.09359-.320012.2830852-.34572125l.0870908-.00551075zm-19.699584 2.211456c-.63872 0-1.174144.162688-1.602816.49152s-.736896.756352-.926208 1.282432h5.013248c-.101504-.49664-.383872-.917248-.848768-1.259904-.46656-.342656-1.01056-.514048-1.635456-.514048z"
+                        transform="translate(9 7)"
+                      ></path>
+                      <path
+                        fill="#febb02"
+                        d="m37.6090112 2.1196288c0 .5691264.204288 1.058944.614656 1.4694272.410496.4084992.900224.6147328 1.469312.6147328s1.058816-.2062336 1.469312-.6147328c.408448-.4104832.614656-.9003008.614656-1.4694272s-.206208-1.0589312-.614656-1.4694272c-.410496-.4104832-.900224-.6147328-1.469312-.6147328s-1.058816.2042496-1.469312.6147328c-.410368.410496-.614656.9003008-.614656 1.4694272z"
+                        transform="translate(9 7)"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <h3>Emiri Hotel - Nana Bangkok</h3>
+                <p class="location">Bangkok, Thailand</p>
+                <div class="review">
+                  <div class="score">8.8</div>
+                  <div class="grade">Excellent</div>
+                  <div class="num-reviews">261 reviews</div>
+                </div>
+                <div class="price">
+                  <div class="desc">2 nights</div>
+                  <div class="old-price">CNY 1,531</div>
+                  <div class="new-price">CNY 986</div>
+                </div>
+              </div>
+            </li>
+            <li class="price-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/hotel/square240/603301210.jpg?k=f49389ad6ad3771a617f5f739f6ad4a99c3c1920d1e962bc21699e760a47392f&o="
+                alt=""
+              />
+              <div class="content">
+                <div class="source-tag">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 32">
+                    <g fill="none">
+                      <rect
+                        width="80"
+                        height="32.049"
+                        fill="#004cb8"
+                        rx="4"
+                      ></rect>
+                      <path
+                        fill="#fff"
+                        d="m44.9668352 5.5533056c.216944 0 .339024.090062.3661543.269157l.0058137.082203v6.00384c0 .598784.15488 1.081728.468224 1.446784.311552.365184.752384.546944 1.318784.546944.8360411 0 1.5222034-.3462224 2.0583844-1.0386671l.1210716-.1659409v-6.79296c0-.204512.088396-.320138.2661313-.345849l.0816447-.005511h2.201984c.203392 0 .318388.090062.343959.269157l.005481.082203v9.97056c0 .204512-.089572.318864-.267687.3442565l-.081753.0054395h-1.787008c-.2109806 0-.3651605-.0750446-.4590737-.2251337l-.0419183-.0812983-.26176-.635136c-.290944.26304-.542208.467328-.752256.612736-.210048.147072-.507904.282112-.893568.406656-.385664.12288-.81088.185216-1.275648.185216-1.220608 0-2.186496-.375552-2.8992-1.128448-.6602514-.6974537-1.0146749-1.6397022-1.0619382-2.8224411l-.0054538-.2772069v-6.3552c0-.204512.094864-.320138.283563-.345849l.086613-.005511zm12.803968-.35456c1.773184 0 3.117824.562432 4.033664 1.687424.140112.165088.140476.320866.0022925.4651045l-.0677005.0611035-1.1776 1.095552c-.173824.131456-.34944.108928-.523392-.065792-.624896-.657664-1.358336-.986496-2.201856-.986496-.521728 0-.940032.07616-1.253376.230144-.311552.15232-.468224.361728-.468224.624768 0 .306304.19968.559104.59904.756352.401152.195584 1.057152.375552 1.972992.536576 2.49984.422272 3.749632 1.5264 3.749632 3.309056 0 1.079936-.42176 1.934976-1.263616 2.5632-.843648.628224-1.874816.941568-3.095424.941568-1.265408 0-2.306944-.266624-3.128192-.799616-.821248-.53312-1.39968-1.208064-1.733632-2.026752-.088928-.192304-.049966-.338254.116886-.44128l.079338-.041536 1.656192-.744192c.218624-.102144.37184-.043264.457984.174848.175616.453376.480256.825472.91584 1.117952s.958976.437888 1.570176.437888c.507776 0 .919296-.095232 1.230848-.283776.313344-.190464.468352-.446592.468352-.768512 0-.365184-.203136-.655872-.609408-.875776-.408064-.219776-1.119104-.423936-2.136576-.612608-1.031168-.190336-1.84896-.558976-2.451584-1.107712-.604288-.546816-.9056-1.230464-.9056-2.049152 0-.977792.37888-1.756672 1.134592-2.332928.754048-.576384 1.764608-.865408 3.028352-.865408zm-36.68096 0c1.642496 0 2.928512.507136 3.858176 1.523072.929664 1.014144 1.394432 2.289664 1.394432 3.823104v.700928c0 .233728-.115328.35136-.347648.35136h-7.499392c.160128.671488.476928 1.21152.948608 1.621632.47168.408448 1.07264.612736 1.79904.612736.988288 0 1.742336-.408448 2.265728-1.227136.087808-.131456.225536-.15232.414848-.065664l1.874816.78912c.21696.072704.268544.204288.151552.394624-1.06048 1.79648-2.628864 2.694784-4.706944 2.694784-1.570048 0-2.902528-.526208-4.000896-1.576704-1.096704-1.052288-1.645952-2.397056-1.645952-4.03264 0-1.635456.545792-2.980224 1.635584-4.032512 1.089792-1.050624 2.375808-1.576704 3.858048-1.576704zm-12.376576-5.1987456c2.16 0 4.13952.7363072 5.660544 1.9553792.07296.0590464.118144.1424.125056.232704.010368.0937728-.017408.1840768-.076416.2570112-.388992.4688768-1.19808 1.4448384-1.59744 1.9241344-.059008.0729344-.14592.11808-.239616.1250304-.093824.0069504-.184064-.0243072-.253568-.0833536-.958464-.8127232-2.226048-1.3059072-3.61856-1.3059072-2.976256 0-5.389824 2.3757312-5.389824 5.1542272s2.413568 5.036032 5.389824 5.036032c1.156352 0 2.226048-.340352 3.10464-.92032v-2.250624h-2.54912c-.09024 0-.18048-.034688-.246528-.100736-.062464-.06592-.100736-.152832-.100736-.246528v-2.181248c0-.093696.038272-.180608.100736-.246528.066048-.062592.156288-.100736.246528-.100736h5.025152c.190976 0 .347264.156288.347264.347264v6.307328c0 .208384-.09024.402816-.25344.538368-1.524608 1.219072-3.51104 1.955328-5.674496 1.955328-4.8098688 0-8.7132672-3.646848-8.7132672-8.1376 0-4.4942592 3.9033984-8.2592256 8.7132672-8.2592256zm24.552448 5.1987456c1.220608 0 2.162304.332288 2.823424.996864.6138971.61710629.9427154 1.47006759.9865573 2.56011373l.0050587.25575827v6.793088c0 .2044-.08967.318738-.2677238.3441288l-.0817162.0054392h-2.200192c-.203392 0-.318486-.088788-.3440815-.2674788l-.0054865-.0820892v-6.026368c0-1.315328-.602496-1.972992-1.809408-1.972992-.406272 0-.814336.124672-1.220608.373888-.33856.20618667-.6125867.42801778-.82008.66556741l-.116496.14441659v6.815488c0 .2044-.094864.318738-.2846778.3441288l-.0871622.0054392h-2.179584c-.215376 0-.337162-.088788-.3642433-.2674788l-.0058047-.0820892v-9.970688c0-.2044.094864-.320012.2834773-.34572125l.0865707-.00551075h1.7888c.2109806 0 .3587657.08134531.4422269.24194015l.0363651.08689185.284032.6144c.929664-.818688 1.947136-1.227136 3.050752-1.227136zm7.523712.265216c.216832 0 .337526.090062.3643115.26907125l.0057365.08216075v9.970688c0 .204512-.09359.318766-.2829995.344134l-.0870485.005434h-2.179584c-.216944 0-.337652-.08869-.3644393-.267442l-.0057367-.082126v-9.970688c0-.2044.09359-.320012.2830852-.34572125l.0870908-.00551075zm-19.699584 2.211456c-.63872 0-1.174144.162688-1.602816.49152s-.736896.756352-.926208 1.282432h5.013248c-.101504-.49664-.383872-.917248-.848768-1.259904-.46656-.342656-1.01056-.514048-1.635456-.514048z"
+                        transform="translate(9 7)"
+                      ></path>
+                      <path
+                        fill="#febb02"
+                        d="m37.6090112 2.1196288c0 .5691264.204288 1.058944.614656 1.4694272.410496.4084992.900224.6147328 1.469312.6147328s1.058816-.2062336 1.469312-.6147328c.408448-.4104832.614656-.9003008.614656-1.4694272s-.206208-1.0589312-.614656-1.4694272c-.410496-.4104832-.900224-.6147328-1.469312-.6147328s-1.058816.2042496-1.469312.6147328c-.410368.410496-.614656.9003008-.614656 1.4694272z"
+                        transform="translate(9 7)"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <h3>Emiri Hotel - Nana Bangkok</h3>
+                <p class="location">Bangkok, Thailand</p>
+                <div class="review">
+                  <div class="score">8.8</div>
+                  <div class="grade">Excellent</div>
+                  <div class="num-reviews">261 reviews</div>
+                </div>
+                <div class="price">
+                  <div class="desc">2 nights</div>
+                  <div class="old-price">CNY 1,531</div>
+                  <div class="new-price">CNY 986</div>
+                </div>
+              </div>
+            </li>
+            <li class="price-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/hotel/square240/603301210.jpg?k=f49389ad6ad3771a617f5f739f6ad4a99c3c1920d1e962bc21699e760a47392f&o="
+                alt=""
+              />
+              <div class="content">
+                <div class="source-tag">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 32">
+                    <g fill="none">
+                      <rect
+                        width="80"
+                        height="32.049"
+                        fill="#004cb8"
+                        rx="4"
+                      ></rect>
+                      <path
+                        fill="#fff"
+                        d="m44.9668352 5.5533056c.216944 0 .339024.090062.3661543.269157l.0058137.082203v6.00384c0 .598784.15488 1.081728.468224 1.446784.311552.365184.752384.546944 1.318784.546944.8360411 0 1.5222034-.3462224 2.0583844-1.0386671l.1210716-.1659409v-6.79296c0-.204512.088396-.320138.2661313-.345849l.0816447-.005511h2.201984c.203392 0 .318388.090062.343959.269157l.005481.082203v9.97056c0 .204512-.089572.318864-.267687.3442565l-.081753.0054395h-1.787008c-.2109806 0-.3651605-.0750446-.4590737-.2251337l-.0419183-.0812983-.26176-.635136c-.290944.26304-.542208.467328-.752256.612736-.210048.147072-.507904.282112-.893568.406656-.385664.12288-.81088.185216-1.275648.185216-1.220608 0-2.186496-.375552-2.8992-1.128448-.6602514-.6974537-1.0146749-1.6397022-1.0619382-2.8224411l-.0054538-.2772069v-6.3552c0-.204512.094864-.320138.283563-.345849l.086613-.005511zm12.803968-.35456c1.773184 0 3.117824.562432 4.033664 1.687424.140112.165088.140476.320866.0022925.4651045l-.0677005.0611035-1.1776 1.095552c-.173824.131456-.34944.108928-.523392-.065792-.624896-.657664-1.358336-.986496-2.201856-.986496-.521728 0-.940032.07616-1.253376.230144-.311552.15232-.468224.361728-.468224.624768 0 .306304.19968.559104.59904.756352.401152.195584 1.057152.375552 1.972992.536576 2.49984.422272 3.749632 1.5264 3.749632 3.309056 0 1.079936-.42176 1.934976-1.263616 2.5632-.843648.628224-1.874816.941568-3.095424.941568-1.265408 0-2.306944-.266624-3.128192-.799616-.821248-.53312-1.39968-1.208064-1.733632-2.026752-.088928-.192304-.049966-.338254.116886-.44128l.079338-.041536 1.656192-.744192c.218624-.102144.37184-.043264.457984.174848.175616.453376.480256.825472.91584 1.117952s.958976.437888 1.570176.437888c.507776 0 .919296-.095232 1.230848-.283776.313344-.190464.468352-.446592.468352-.768512 0-.365184-.203136-.655872-.609408-.875776-.408064-.219776-1.119104-.423936-2.136576-.612608-1.031168-.190336-1.84896-.558976-2.451584-1.107712-.604288-.546816-.9056-1.230464-.9056-2.049152 0-.977792.37888-1.756672 1.134592-2.332928.754048-.576384 1.764608-.865408 3.028352-.865408zm-36.68096 0c1.642496 0 2.928512.507136 3.858176 1.523072.929664 1.014144 1.394432 2.289664 1.394432 3.823104v.700928c0 .233728-.115328.35136-.347648.35136h-7.499392c.160128.671488.476928 1.21152.948608 1.621632.47168.408448 1.07264.612736 1.79904.612736.988288 0 1.742336-.408448 2.265728-1.227136.087808-.131456.225536-.15232.414848-.065664l1.874816.78912c.21696.072704.268544.204288.151552.394624-1.06048 1.79648-2.628864 2.694784-4.706944 2.694784-1.570048 0-2.902528-.526208-4.000896-1.576704-1.096704-1.052288-1.645952-2.397056-1.645952-4.03264 0-1.635456.545792-2.980224 1.635584-4.032512 1.089792-1.050624 2.375808-1.576704 3.858048-1.576704zm-12.376576-5.1987456c2.16 0 4.13952.7363072 5.660544 1.9553792.07296.0590464.118144.1424.125056.232704.010368.0937728-.017408.1840768-.076416.2570112-.388992.4688768-1.19808 1.4448384-1.59744 1.9241344-.059008.0729344-.14592.11808-.239616.1250304-.093824.0069504-.184064-.0243072-.253568-.0833536-.958464-.8127232-2.226048-1.3059072-3.61856-1.3059072-2.976256 0-5.389824 2.3757312-5.389824 5.1542272s2.413568 5.036032 5.389824 5.036032c1.156352 0 2.226048-.340352 3.10464-.92032v-2.250624h-2.54912c-.09024 0-.18048-.034688-.246528-.100736-.062464-.06592-.100736-.152832-.100736-.246528v-2.181248c0-.093696.038272-.180608.100736-.246528.066048-.062592.156288-.100736.246528-.100736h5.025152c.190976 0 .347264.156288.347264.347264v6.307328c0 .208384-.09024.402816-.25344.538368-1.524608 1.219072-3.51104 1.955328-5.674496 1.955328-4.8098688 0-8.7132672-3.646848-8.7132672-8.1376 0-4.4942592 3.9033984-8.2592256 8.7132672-8.2592256zm24.552448 5.1987456c1.220608 0 2.162304.332288 2.823424.996864.6138971.61710629.9427154 1.47006759.9865573 2.56011373l.0050587.25575827v6.793088c0 .2044-.08967.318738-.2677238.3441288l-.0817162.0054392h-2.200192c-.203392 0-.318486-.088788-.3440815-.2674788l-.0054865-.0820892v-6.026368c0-1.315328-.602496-1.972992-1.809408-1.972992-.406272 0-.814336.124672-1.220608.373888-.33856.20618667-.6125867.42801778-.82008.66556741l-.116496.14441659v6.815488c0 .2044-.094864.318738-.2846778.3441288l-.0871622.0054392h-2.179584c-.215376 0-.337162-.088788-.3642433-.2674788l-.0058047-.0820892v-9.970688c0-.2044.094864-.320012.2834773-.34572125l.0865707-.00551075h1.7888c.2109806 0 .3587657.08134531.4422269.24194015l.0363651.08689185.284032.6144c.929664-.818688 1.947136-1.227136 3.050752-1.227136zm7.523712.265216c.216832 0 .337526.090062.3643115.26907125l.0057365.08216075v9.970688c0 .204512-.09359.318766-.2829995.344134l-.0870485.005434h-2.179584c-.216944 0-.337652-.08869-.3644393-.267442l-.0057367-.082126v-9.970688c0-.2044.09359-.320012.2830852-.34572125l.0870908-.00551075zm-19.699584 2.211456c-.63872 0-1.174144.162688-1.602816.49152s-.736896.756352-.926208 1.282432h5.013248c-.101504-.49664-.383872-.917248-.848768-1.259904-.46656-.342656-1.01056-.514048-1.635456-.514048z"
+                        transform="translate(9 7)"
+                      ></path>
+                      <path
+                        fill="#febb02"
+                        d="m37.6090112 2.1196288c0 .5691264.204288 1.058944.614656 1.4694272.410496.4084992.900224.6147328 1.469312.6147328s1.058816-.2062336 1.469312-.6147328c.408448-.4104832.614656-.9003008.614656-1.4694272s-.206208-1.0589312-.614656-1.4694272c-.410496-.4104832-.900224-.6147328-1.469312-.6147328s-1.058816.2042496-1.469312.6147328c-.410368.410496-.614656.9003008-.614656 1.4694272z"
+                        transform="translate(9 7)"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <h3>Emiri Hotel - Nana Bangkok</h3>
+                <p class="location">Bangkok, Thailand</p>
+                <div class="review">
+                  <div class="score">8.8</div>
+                  <div class="grade">Excellent</div>
+                  <div class="num-reviews">261 reviews</div>
+                </div>
+                <div class="price">
+                  <div class="desc">2 nights</div>
+                  <div class="old-price">CNY 1,531</div>
+                  <div class="new-price">CNY 986</div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section">
+        <div class="heading">
+          <h2>Deals for the weekend</h2>
+          <p>Save on stays for January 3 - January 5</p>
+        </div>
+        <div
+          class="scroller-wrapper"
+          style="--_height_img: 13.125rem; --_content-height: 7.125rem"
+        >
+          <div class="control scroll-left">&lt;</div>
+          <div class="control scroll-right">&gt;</div>
+          <ul class="scroller">
+            <li class="price-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/hotel/square600/49557304.webp?k=529d9ad2caafcd5c0dd9dd55aee9bb87600cdd33f5e45abc2934dda458c4cfd0&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>NUO Hotel Beijing</h3>
+                <p class="location">Chaoyang, China, Beijing</p>
+                <div class="review">
+                  <div class="score">9.1</div>
+                  <div class="grade">Wonderful</div>
+                  <div class="num-reviews">124 reviews</div>
+                </div>
+                <div class="fav-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="50px"
+                  >
+                    <path
+                      d="m12.541 21.325-9.588-10a4.923 4.923 0 1 1 6.95-6.976l1.567 1.566a.75.75 0 0 0 1.06 0l1.566-1.566a4.923 4.923 0 0 1 6.963 6.962l-9.6 10.014zm-1.082 1.038a.75.75 0 0 0 1.082 0l9.59-10.003a6.42 6.42 0 0 0-.012-9.07 6.423 6.423 0 0 0-9.083-.001L11.47 4.854h1.06l-1.566-1.566a6.423 6.423 0 1 0-9.082 9.086l9.577 9.99z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </li>
+            <li class="price-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/hotel/square600/251981326.webp?k=d5113ca491386c5b036535715ad6eba436c89ff65bd8725f09621399b9174ed7&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Yangshuo Mountain Retreat</h3>
+                <p class="location">
+                  Yulong River Scenic Area, China, Yangshuo
+                </p>
+                <div class="review">
+                  <div class="score">9.2</div>
+                  <div class="grade">Wonderful</div>
+                  <div class="num-reviews">150 reviews</div>
+                </div>
+                <div class="fav-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="50px"
+                  >
+                    <path
+                      d="m12.541 21.325-9.588-10a4.923 4.923 0 1 1 6.95-6.976l1.567 1.566a.75.75 0 0 0 1.06 0l1.566-1.566a4.923 4.923 0 0 1 6.963 6.962l-9.6 10.014zm-1.082 1.038a.75.75 0 0 0 1.082 0l9.59-10.003a6.42 6.42 0 0 0-.012-9.07 6.423 6.423 0 0 0-9.083-.001L11.47 4.854h1.06l-1.566-1.566a6.423 6.423 0 1 0-9.082 9.086l9.577 9.99z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </li>
+            <li class="price-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/hotel/square600/594440193.webp?k=0ea295f12e95554d227ebda7dd8ab8a56c5f0fe8b1afa25f73b805965547a060&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Atlantis Sanya</h3>
+                <p class="location">Haitang Bay, China, Sanya</p>
+                <div class="review">
+                  <div class="score">8.7</div>
+                  <div class="grade">Excellent</div>
+                  <div class="num-reviews">264 reviews</div>
+                </div>
+                <div class="fav-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="50px"
+                  >
+                    <path
+                      d="m12.541 21.325-9.588-10a4.923 4.923 0 1 1 6.95-6.976l1.567 1.566a.75.75 0 0 0 1.06 0l1.566-1.566a4.923 4.923 0 0 1 6.963 6.962l-9.6 10.014zm-1.082 1.038a.75.75 0 0 0 1.082 0l9.59-10.003a6.42 6.42 0 0 0-.012-9.07 6.423 6.423 0 0 0-9.083-.001L11.47 4.854h1.06l-1.566-1.566a6.423 6.423 0 1 0-9.082 9.086l9.577 9.99z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </li>
+            <li class="price-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/hotel/square600/110560076.webp?k=4c905493f27dbdaf0cb3a40bfd34b16ad01d06b5c00ed4265557b045314f96a6&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>The Banboo Leaf Yangshuo</h3>
+                <p class="location">China, Yangshuo</p>
+                <div class="review">
+                  <div class="score">9.5</div>
+                  <div class="grade">Exceptional</div>
+                  <div class="num-reviews">283 reviews</div>
+                </div>
+                <div class="fav-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="50px"
+                  >
+                    <path
+                      d="m12.541 21.325-9.588-10a4.923 4.923 0 1 1 6.95-6.976l1.567 1.566a.75.75 0 0 0 1.06 0l1.566-1.566a4.923 4.923 0 0 1 6.963 6.962l-9.6 10.014zm-1.082 1.038a.75.75 0 0 0 1.082 0l9.59-10.003a6.42 6.42 0 0 0-.012-9.07 6.423 6.423 0 0 0-9.083-.001L11.47 4.854h1.06l-1.566-1.566a6.423 6.423 0 1 0-9.082 9.086l9.577 9.99z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </li>
+            <li class="price-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/hotel/square600/49557304.webp?k=529d9ad2caafcd5c0dd9dd55aee9bb87600cdd33f5e45abc2934dda458c4cfd0&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>NUO Hotel Beijing</h3>
+                <p class="location">Chaoyang, China, Beijing</p>
+                <div class="review">
+                  <div class="score">9.1</div>
+                  <div class="grade">Wonderful</div>
+                  <div class="num-reviews">124 reviews</div>
+                </div>
+                <div class="fav-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="50px"
+                  >
+                    <path
+                      d="m12.541 21.325-9.588-10a4.923 4.923 0 1 1 6.95-6.976l1.567 1.566a.75.75 0 0 0 1.06 0l1.566-1.566a4.923 4.923 0 0 1 6.963 6.962l-9.6 10.014zm-1.082 1.038a.75.75 0 0 0 1.082 0l9.59-10.003a6.42 6.42 0 0 0-.012-9.07 6.423 6.423 0 0 0-9.083-.001L11.47 4.854h1.06l-1.566-1.566a6.423 6.423 0 1 0-9.082 9.086l9.577 9.99z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </li>
+            <li class="price-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/hotel/square600/49557304.webp?k=529d9ad2caafcd5c0dd9dd55aee9bb87600cdd33f5e45abc2934dda458c4cfd0&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>NUO Hotel Beijing</h3>
+                <p class="location">Chaoyang, China, Beijing</p>
+                <div class="review">
+                  <div class="score">9.1</div>
+                  <div class="grade">Wonderful</div>
+                  <div class="num-reviews">124 reviews</div>
+                </div>
+                <div class="fav-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="50px"
+                  >
+                    <path
+                      d="m12.541 21.325-9.588-10a4.923 4.923 0 1 1 6.95-6.976l1.567 1.566a.75.75 0 0 0 1.06 0l1.566-1.566a4.923 4.923 0 0 1 6.963 6.962l-9.6 10.014zm-1.082 1.038a.75.75 0 0 0 1.082 0l9.59-10.003a6.42 6.42 0 0 0-.012-9.07 6.423 6.423 0 0 0-9.083-.001L11.47 4.854h1.06l-1.566-1.566a6.423 6.423 0 1 0-9.082 9.086l9.577 9.99z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </li>
+            <li class="price-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/hotel/square600/49557304.webp?k=529d9ad2caafcd5c0dd9dd55aee9bb87600cdd33f5e45abc2934dda458c4cfd0&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>NUO Hotel Beijing</h3>
+                <p class="location">Chaoyang, China, Beijing</p>
+                <div class="review">
+                  <div class="score">9.1</div>
+                  <div class="grade">Wonderful</div>
+                  <div class="num-reviews">124 reviews</div>
+                </div>
+                <div class="fav-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="50px"
+                  >
+                    <path
+                      d="m12.541 21.325-9.588-10a4.923 4.923 0 1 1 6.95-6.976l1.567 1.566a.75.75 0 0 0 1.06 0l1.566-1.566a4.923 4.923 0 0 1 6.963 6.962l-9.6 10.014zm-1.082 1.038a.75.75 0 0 0 1.082 0l9.59-10.003a6.42 6.42 0 0 0-.012-9.07 6.423 6.423 0 0 0-9.083-.001L11.47 4.854h1.06l-1.566-1.566a6.423 6.423 0 1 0-9.082 9.086l9.577 9.99z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </li>
+            <li class="price-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/hotel/square600/49557304.webp?k=529d9ad2caafcd5c0dd9dd55aee9bb87600cdd33f5e45abc2934dda458c4cfd0&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>NUO Hotel Beijing</h3>
+                <p class="location">Chaoyang, China, Beijing</p>
+                <div class="review">
+                  <div class="score">9.1</div>
+                  <div class="grade">Wonderful</div>
+                  <div class="num-reviews">124 reviews</div>
+                </div>
+                <div class="fav-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="50px"
+                  >
+                    <path
+                      d="m12.541 21.325-9.588-10a4.923 4.923 0 1 1 6.95-6.976l1.567 1.566a.75.75 0 0 0 1.06 0l1.566-1.566a4.923 4.923 0 0 1 6.963 6.962l-9.6 10.014zm-1.082 1.038a.75.75 0 0 0 1.082 0l9.59-10.003a6.42 6.42 0 0 0-.012-9.07 6.423 6.423 0 0 0-9.083-.001L11.47 4.854h1.06l-1.566-1.566a6.423 6.423 0 1 0-9.082 9.086l9.577 9.99z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section">
+        <div class="heading">
+          <h2>Homes guests love</h2>
+        </div>
+        <div
+          class="scroller-wrapper"
+          style="--_height_img: 13.125rem; --_content-height: 9.75rem"
+        >
+          <div class="control scroll-left">&lt;</div>
+          <div class="control scroll-right">&gt;</div>
+          <ul class="scroller">
+            <li class="price-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/hotel/square600/13125860.webp?k=35b70a7e8a17a71896996cd55d84f742cd15724c3aebaed0d9b5ba19c53c430b&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Aparthotel Stare Miasto</h3>
+                <p class="location">Old Town, Poland, Krakow</p>
+                <div class="review">
+                  <div class="score">8.8</div>
+                  <div class="grade">Excellent</div>
+                  <div class="num-reviews">3,061 reviews</div>
+                </div>
+                <div class="price">
+                  <div class="desc">Starting from</div>
+                  <div class="new-price">CNY 1,081</div>
+                </div>
+                <div class="fav-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="50px"
+                  >
+                    <path
+                      d="m12.541 21.325-9.588-10a4.923 4.923 0 1 1 6.95-6.976l1.567 1.566a.75.75 0 0 0 1.06 0l1.566-1.566a4.923 4.923 0 0 1 6.963 6.962l-9.6 10.014zm-1.082 1.038a.75.75 0 0 0 1.082 0l9.59-10.003a6.42 6.42 0 0 0-.012-9.07 6.423 6.423 0 0 0-9.083-.001L11.47 4.854h1.06l-1.566-1.566a6.423 6.423 0 1 0-9.082 9.086l9.577 9.99z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </li>
+            <li class="price-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/hotel/square600/579099936.webp?k=e04cc7f7fe864ce09b7d7d978dbb7db3e558038a2151eb7c4c11e895bafbd8c0&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>7Seasons Apartments Budapest</h3>
+                <p class="location">06. Terézváros, Hungary, Budapest</p>
+                <div class="review">
+                  <div class="score">8.8</div>
+                  <div class="grade">Excellent</div>
+                  <div class="num-reviews">11,294 reviews</div>
+                </div>
+                <div class="price">
+                  <div class="desc">Starting from</div>
+                  <div class="new-price">CNY 3,064</div>
+                </div>
+                <div class="fav-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="50px"
+                  >
+                    <path
+                      d="m12.541 21.325-9.588-10a4.923 4.923 0 1 1 6.95-6.976l1.567 1.566a.75.75 0 0 0 1.06 0l1.566-1.566a4.923 4.923 0 0 1 6.963 6.962l-9.6 10.014zm-1.082 1.038a.75.75 0 0 0 1.082 0l9.59-10.003a6.42 6.42 0 0 0-.012-9.07 6.423 6.423 0 0 0-9.083-.001L11.47 4.854h1.06l-1.566-1.566a6.423 6.423 0 1 0-9.082 9.086l9.577 9.99z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </li>
+            <li class="price-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/hotel/square600/531732579.webp?k=df9d17c4371175b0e4a60e390083280c837d5e94dacc7d9ae6db48728b5fb5ff&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Leman Locke</h3>
+                <p class="location">Tower Hamlets, United Kingdom, London</p>
+                <div class="review">
+                  <div class="score">8.8</div>
+                  <div class="grade">753 Excellent</div>
+                  <div class="num-reviews">reviews</div>
+                </div>
+                <div class="price">
+                  <div class="desc">Starting from</div>
+                  <div class="new-price">CNY 2,733</div>
+                </div>
+                <div class="fav-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="50px"
+                  >
+                    <path
+                      d="m12.541 21.325-9.588-10a4.923 4.923 0 1 1 6.95-6.976l1.567 1.566a.75.75 0 0 0 1.06 0l1.566-1.566a4.923 4.923 0 0 1 6.963 6.962l-9.6 10.014zm-1.082 1.038a.75.75 0 0 0 1.082 0l9.59-10.003a6.42 6.42 0 0 0-.012-9.07 6.423 6.423 0 0 0-9.083-.001L11.47 4.854h1.06l-1.566-1.566a6.423 6.423 0 1 0-9.082 9.086l9.577 9.99z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </li>
+            <li class="price-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/hotel/square600/29466558.webp?k=7f9cf4736f69b30c20fa7a751bb8711fa195bc9ff6092d5412d52daf6cada17f&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Cheval Three Quays at The Tower of London</h3>
+                <p class="location">City of London, United Kingdom, London</p>
+                <div class="review">
+                  <div class="score">9.4</div>
+                  <div class="grade">Wonderful</div>
+                  <div class="num-reviews">667 reviews</div>
+                </div>
+                <div class="price">
+                  <div class="desc">Starting from</div>
+                  <div class="new-price">CNY 3,273</div>
+                </div>
+                <div class="fav-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="50px"
+                  >
+                    <path
+                      d="m12.541 21.325-9.588-10a4.923 4.923 0 1 1 6.95-6.976l1.567 1.566a.75.75 0 0 0 1.06 0l1.566-1.566a4.923 4.923 0 0 1 6.963 6.962l-9.6 10.014zm-1.082 1.038a.75.75 0 0 0 1.082 0l9.59-10.003a6.42 6.42 0 0 0-.012-9.07 6.423 6.423 0 0 0-9.083-.001L11.47 4.854h1.06l-1.566-1.566a6.423 6.423 0 1 0-9.082 9.086l9.577 9.99z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </li>
+            <li class="price-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/hotel/square600/13125860.webp?k=35b70a7e8a17a71896996cd55d84f742cd15724c3aebaed0d9b5ba19c53c430b&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Aparthotel Stare Miasto</h3>
+                <p class="location">Old Town, Poland, Krakow</p>
+                <div class="review">
+                  <div class="score">8.8</div>
+                  <div class="grade">Excellent</div>
+                  <div class="num-reviews">3,061 reviews</div>
+                </div>
+                <div class="price">
+                  <div class="desc">Starting from</div>
+                  <div class="new-price">CNY 1,081</div>
+                </div>
+                <div class="fav-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="50px"
+                  >
+                    <path
+                      d="m12.541 21.325-9.588-10a4.923 4.923 0 1 1 6.95-6.976l1.567 1.566a.75.75 0 0 0 1.06 0l1.566-1.566a4.923 4.923 0 0 1 6.963 6.962l-9.6 10.014zm-1.082 1.038a.75.75 0 0 0 1.082 0l9.59-10.003a6.42 6.42 0 0 0-.012-9.07 6.423 6.423 0 0 0-9.083-.001L11.47 4.854h1.06l-1.566-1.566a6.423 6.423 0 1 0-9.082 9.086l9.577 9.99z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </li>
+            <li class="price-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/hotel/square600/13125860.webp?k=35b70a7e8a17a71896996cd55d84f742cd15724c3aebaed0d9b5ba19c53c430b&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Aparthotel Stare Miasto</h3>
+                <p class="location">Old Town, Poland, Krakow</p>
+                <div class="review">
+                  <div class="score">8.8</div>
+                  <div class="grade">Excellent</div>
+                  <div class="num-reviews">3,061 reviews</div>
+                </div>
+                <div class="price">
+                  <div class="desc">Starting from</div>
+                  <div class="new-price">CNY 1,081</div>
+                </div>
+                <div class="fav-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="50px"
+                  >
+                    <path
+                      d="m12.541 21.325-9.588-10a4.923 4.923 0 1 1 6.95-6.976l1.567 1.566a.75.75 0 0 0 1.06 0l1.566-1.566a4.923 4.923 0 0 1 6.963 6.962l-9.6 10.014zm-1.082 1.038a.75.75 0 0 0 1.082 0l9.59-10.003a6.42 6.42 0 0 0-.012-9.07 6.423 6.423 0 0 0-9.083-.001L11.47 4.854h1.06l-1.566-1.566a6.423 6.423 0 1 0-9.082 9.086l9.577 9.99z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </li>
+            <li class="price-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/hotel/square600/13125860.webp?k=35b70a7e8a17a71896996cd55d84f742cd15724c3aebaed0d9b5ba19c53c430b&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Aparthotel Stare Miasto</h3>
+                <p class="location">Old Town, Poland, Krakow</p>
+                <div class="review">
+                  <div class="score">8.8</div>
+                  <div class="grade">Excellent</div>
+                  <div class="num-reviews">3,061 reviews</div>
+                </div>
+                <div class="price">
+                  <div class="desc">Starting from</div>
+                  <div class="new-price">CNY 1,081</div>
+                </div>
+                <div class="fav-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="50px"
+                  >
+                    <path
+                      d="m12.541 21.325-9.588-10a4.923 4.923 0 1 1 6.95-6.976l1.567 1.566a.75.75 0 0 0 1.06 0l1.566-1.566a4.923 4.923 0 0 1 6.963 6.962l-9.6 10.014zm-1.082 1.038a.75.75 0 0 0 1.082 0l9.59-10.003a6.42 6.42 0 0 0-.012-9.07 6.423 6.423 0 0 0-9.083-.001L11.47 4.854h1.06l-1.566-1.566a6.423 6.423 0 1 0-9.082 9.086l9.577 9.99z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </li>
+            <li class="price-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/hotel/square600/13125860.webp?k=35b70a7e8a17a71896996cd55d84f742cd15724c3aebaed0d9b5ba19c53c430b&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Aparthotel Stare Miasto</h3>
+                <p class="location">Old Town, Poland, Krakow</p>
+                <div class="review">
+                  <div class="score">8.8</div>
+                  <div class="grade">Excellent</div>
+                  <div class="num-reviews">3,061 reviews</div>
+                </div>
+                <div class="price">
+                  <div class="desc">Starting from</div>
+                  <div class="new-price">CNY 1,081</div>
+                </div>
+                <div class="fav-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="50px"
+                  >
+                    <path
+                      d="m12.541 21.325-9.588-10a4.923 4.923 0 1 1 6.95-6.976l1.567 1.566a.75.75 0 0 0 1.06 0l1.566-1.566a4.923 4.923 0 0 1 6.963 6.962l-9.6 10.014zm-1.082 1.038a.75.75 0 0 0 1.082 0l9.59-10.003a6.42 6.42 0 0 0-.012-9.07 6.423 6.423 0 0 0-9.083-.001L11.47 4.854h1.06l-1.566-1.566a6.423 6.423 0 1 0-9.082 9.086l9.577 9.99z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </li>
+            <li class="price-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/hotel/square600/13125860.webp?k=35b70a7e8a17a71896996cd55d84f742cd15724c3aebaed0d9b5ba19c53c430b&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>Aparthotel Stare Miasto</h3>
+                <p class="location">Old Town, Poland, Krakow</p>
+                <div class="review">
+                  <div class="score">8.8</div>
+                  <div class="grade">Excellent</div>
+                  <div class="num-reviews">3,061 reviews</div>
+                </div>
+                <div class="price">
+                  <div class="desc">Starting from</div>
+                  <div class="new-price">CNY 1,081</div>
+                </div>
+                <div class="fav-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="50px"
+                  >
+                    <path
+                      d="m12.541 21.325-9.588-10a4.923 4.923 0 1 1 6.95-6.976l1.567 1.566a.75.75 0 0 0 1.06 0l1.566-1.566a4.923 4.923 0 0 1 6.963 6.962l-9.6 10.014zm-1.082 1.038a.75.75 0 0 0 1.082 0l9.59-10.003a6.42 6.42 0 0 0-.012-9.07 6.423 6.423 0 0 0-9.083-.001L11.47 4.854h1.06l-1.566-1.566a6.423 6.423 0 1 0-9.082 9.086l9.577 9.99z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section">
+        <div class="heading">
+          <h2>Get inspiration for your next trip</h2>
+        </div>
+        <div
+          class="scroller-wrapper"
+          style="--_height_img: 23rem; --_content-height: 15rem"
+        >
+          <div class="control scroll-left">&lt;</div>
+          <div class="control scroll-right">&gt;</div>
+          <ul class="scroller no-snap">
+            <li class="gallary-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/xphoto/540x405/292049346.jpg?k=ad53f89eb6ed386bcdb6100d5c729e6db510900f74d8891baaab2bf2a2283631&amp;o="
+                alt=""
+              />
+              <div class="content">
+                <h3>5 of the best hotels in Los Angeles</h3>
+                <p>
+                  From Hollywood to Beverly Hills discover 5 of the best hotels
+                  in Los Angeles for your stay
+                </p>
+              </div>
+            </li>
+            <li class="gallary-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/xphoto/540x405/292056369.jpg?k=358d8cd9ede268c8a9660de4debc48b68fe5777bddce07972ac30ae28ab8b8f2&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>The 6 best Orlando hotels for families</h3>
+                <p>
+                  Discover the best Orlando hotels for families for your
+                  vacation.
+                </p>
+              </div>
+            </li>
+            <li class="gallary-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/xphoto/540x405/288300879.jpg?k=20a291605b4d1cc6c15b1ee3f9598c22ddb81a8d5ed73135330e426f8d2b9629&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>5 best ski towns around the world</h3>
+                <p>
+                  Discover a winter wonderland in these charming ski
+                  destinations
+                </p>
+              </div>
+            </li>
+            <li class="gallary-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/xphoto/540x405/281113733.jpg?k=43768154acdf2261706ad890b1e6196e0b261f88de846c23d3bf5693de202238&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>5 vacation homes for a Thanksgiving getaway</h3>
+                <p>Enjoy Thanksgiving dinner at these vacation homes.</p>
+              </div>
+            </li>
+            <li class="gallary-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/xphoto/540x405/292056369.jpg?k=358d8cd9ede268c8a9660de4debc48b68fe5777bddce07972ac30ae28ab8b8f2&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>The 6 best Orlando hotels for families</h3>
+                <p>
+                  Discover the best Orlando hotels for families for your
+                  vacation.
+                </p>
+              </div>
+            </li>
+            <li class="gallary-card">
+              <img
+                src="https://ac-a.static.booking.cn/xdata/images/xphoto/540x405/292056369.jpg?k=358d8cd9ede268c8a9660de4debc48b68fe5777bddce07972ac30ae28ab8b8f2&o="
+                alt=""
+              />
+              <div class="content">
+                <h3>The 6 best Orlando hotels for families</h3>
+                <p>
+                  Discover the best Orlando hotels for families for your
+                  vacation.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section cta">
+        <div class="heading">
+          <h2>Travel more, spend less</h2>
+        </div>
+        <div class="login-wrapper">
+          <div class="content">
+            <h3>Sign in, save money</h3>
+            <p>
+              Save 10% or more at participating properties – just look for the
+              blue Genius label
+            </p>
+            <div class="button-wrapper">
+              <button class="primary">Sign in</button>
+              <button class="secondary">Register</button>
+            </div>
+          </div>
+          <img
+            src="https://t-cf.bstatic.com/design-assets/assets/v3.138.1/illustrations-traveller/GeniusGenericGiftBox.png"
+            alt=""
+          />
+        </div>
+        <div class="decor">
+          <div class="left">
+            <div class="left-decor"></div>
+          </div>
+          <div class="middle">
+            <div class="content">
+              <h3>
+                <div>
+                  <span>Find</span>
+                  <span class="keywords-wrapper">
+                    <ul>
+                      <li>apartments</li>
+                      <li>homes</li>
+                      <li>vacation homes</li>
+                      <li>villas</li>
+                      <li>cottages</li>
+                      <li>apartments</li>
+                    </ul>
+                  </span>
+                </div>
+                <div>for your next trip</div>
+              </h3>
+              <button class="secondary">Discover homes</button>
+            </div>
+          </div>
+          <div class="right">
+            <img
+              src="https://ac-a.static.booking.cn/psb/capla/static/media/bh_aw_cpg_main_image.b4347622.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <section class="section destinations">
+        <div class="heading">
+          <h2>Popular with travelers from China</h2>
+        </div>
+        <ul class="tag-list">
+          <li class="tag-item active">
+            <a href="/">Domestic cities </a>
+          </li>
+          <li class="tag-item">
+            <a href="/">International cities</a>
+          </li>
+          <li class="tag-item">
+            <a href="/">Regions</a>
+          </li>
+          <li class="tag-item">
+            <a href="/">Countries</a>
+          </li>
+          <li class="tag-item">
+            <a href="/">Places to stay</a>
+          </li>
+        </ul>
+        <div class="destination-wrapper">
+          <ul>
+            <li>Lorem, ipsum.</li>
+            <li>Modi, error.</li>
+            <li>Voluptates, quasi.</li>
+            <li>Ea, minima?</li>
+            <li>In, aliquid.</li>
+            <li>Quibusdam, harum!</li>
+            <li>Ipsam, maiores!</li>
+            <li>Dolor, distinctio.</li>
+            <li>Repudiandae, cumque?</li>
+            <li>Quaerat, at.</li>
+            <li>Placeat, consectetur!</li>
+            <li>Est, provident.</li>
+            <li>Dolor, laboriosam.</li>
+            <li>Repellat, ex.</li>
+            <li>Obcaecati, quod?</li>
+            <li>Natus, quidem!</li>
+            <li>Magni, quidem.</li>
+            <li>Unde, laboriosam.</li>
+            <li>Et, laboriosam.</li>
+            <li>Repudiandae, recusandae.</li>
+            <li>Consectetur, quidem!</li>
+            <li>Voluptatum, esse.</li>
+            <li>Adipisci, tempore.</li>
+            <li>Earum, cum.</li>
+            <li>Placeat, quos.</li>
+          </ul>
+          <div class="shwo-more">
+            <button class="secondary">+ Show more</button>
+          </div>
+        </div>
+      </section>
+      <section class="section links">
+        <div class="links-wrapper">
+          <ul>
+            <li><a>Lorem</a></li>
+            <li><a>Voluptates</a></li>
+            <li><a>Corporis</a></li>
+            <li><a>Minima</a></li>
+            <li><a>Iure</a></li>
+            <li><a>Itaque</a></li>
+            <li><a>Ab</a></li>
+            <li><a>Provident</a></li>
+            <li><a>Quae</a></li>
+            <li><a>Accusantium</a></li>
+            <li><a>Ullam</a></li>
+            <li><a>Reprehenderit</a></li>
+            <li><a>Quo</a></li>
+            <li><a>Eaque</a></li>
+            <li><a>Doloribus</a></li>
+            <li><a>Dolorum</a></li>
+            <li><a>Quas</a></li>
+            <li><a>Ut</a></li>
+            <li><a>Dolores</a></li>
+            <li><a>Alias</a></li>
+            <li><a>Deleniti</a></li>
+            <li><a>Quod</a></li>
+            <li><a>Laudantium</a></li>
+            <li><a>Accusamus</a></li>
+            <li><a>Incidunt</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="links-wrapper">
+        <div>
+          <h3>Support</h3>
+          <ul>
+            <li><a href="">Lorem, ipsum dolor.</a></li>
+            <li><a href="">Deserunt, alias ducimus!</a></li>
+            <li><a href="">Tempora, dignissimos vel.</a></li>
+            <li><a href="">Amet, tempora aspernatur.</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Discover</h3>
+          <ul>
+            <li><a href="">Lorem, ipsum.</a></li>
+            <li><a href="">Nisi, ipsa?</a></li>
+            <li><a href="">Aliquam, facilis.</a></li>
+            <li><a href="">Consectetur, rerum!</a></li>
+            <li><a href="">Nam, iusto.</a></li>
+            <li><a href="">Temporibus, distinctio.</a></li>
+            <li><a href="">Magnam, laboriosam.</a></li>
+            <li><a href="">Eveniet, voluptas.</a></li>
+            <li><a href="">Autem, ullam!</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Terms and settings</h3>
+          <ul>
+            <li><a href="">Lorem, ipsum dolor.</a></li>
+            <li><a href="">Fuga, ipsam explicabo.</a></li>
+            <li><a href="">Amet, atque animi?</a></li>
+            <li><a href="">Rem, iusto blanditiis?</a></li>
+            <li><a href="">Natus, vero voluptatibus?</a></li>
+            <li><a href="">Perferendis, perspiciatis nihil.</a></li>
+            <li><a href="">Magni, illo ipsa!</a></li>
+            <li><a href="">Quaerat, natus error?</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Partners</h3>
+          <ul>
+            <li><a href="">Lorem, ipsum.</a></li>
+            <li><a href="">Incidunt, repellat?</a></li>
+            <li><a href="">Ducimus, minus!</a></li>
+            <li><a href="">Animi, at.</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>About</h3>
+          <ul>
+            <li><a href="">Lorem.</a></li>
+            <li><a href="">Quo!</a></li>
+            <li><a href="">Enim.</a></li>
+            <li><a href="">Error!</a></li>
+            <li><a href="">Sint!</a></li>
+            <li><a href="">Unde!</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
