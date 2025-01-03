@@ -19,8 +19,19 @@
     align-items: center;
     justify-content: center;
     z-index: 1;
+    transition: all 0.3s;
+    user-select: none;
+    cursor: pointer;
   }
-
+  .control:hover {
+    background: var(--clr-bg--muted);
+  }
+  .control:active {
+    scale: 0.95;
+  }
+  .control.hide {
+    opacity: 0;
+  }
   .scroll-left {
     left: var(--_padding-inline);
     translate: -50% -50%;
