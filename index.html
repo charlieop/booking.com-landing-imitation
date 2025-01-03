@@ -100,7 +100,7 @@
             </svg>
             <input type="text" placeholder="Where are you going?" />
           </div>
-          <div class="formgroup">
+          <div class="formgroup" id="select-date">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -109,6 +109,65 @@
               <path
                 d="M22.5 13.5v8.25a.75.75 0 0 1-.75.75H2.25a.75.75 0 0 1-.75-.75V5.25a.75.75 0 0 1 .75-.75h19.5a.75.75 0 0 1 .75.75zm1.5 0V5.25A2.25 2.25 0 0 0 21.75 3H2.25A2.25 2.25 0 0 0 0 5.25v16.5A2.25 2.25 0 0 0 2.25 24h19.5A2.25 2.25 0 0 0 24 21.75zm-23.25-3h22.5a.75.75 0 0 0 0-1.5H.75a.75.75 0 0 0 0 1.5M7.5 6V.75a.75.75 0 0 0-1.5 0V6a.75.75 0 0 0 1.5 0M18 6V.75a.75.75 0 0 0-1.5 0V6A.75.75 0 0 0 18 6M5.095 14.03a.75.75 0 1 0 1.06-1.06.75.75 0 0 0-1.06 1.06m.53-1.28a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25.75.75 0 0 0 0 1.5.375.375 0 1 1 0-.75.375.375 0 0 1 0 .75.75.75 0 0 0 0-1.5m-.53 6.53a.75.75 0 1 0 1.06-1.06.75.75 0 0 0-1.06 1.06m.53-1.28a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25.75.75 0 0 0 0 1.5.375.375 0 1 1 0-.75.375.375 0 0 1 0 .75.75.75 0 0 0 0-1.5m5.845-3.97a.75.75 0 1 0 1.06-1.06.75.75 0 0 0-1.06 1.06m.53-1.28A1.125 1.125 0 1 0 12 15a1.125 1.125 0 0 0 0-2.25.75.75 0 0 0 0 1.5.375.375 0 1 1 0-.75.375.375 0 0 1 0 .75.75.75 0 0 0 0-1.5m-.53 6.53a.75.75 0 1 0 1.06-1.06.75.75 0 0 0-1.06 1.06M12 18a1.125 1.125 0 1 0 0 2.25A1.125 1.125 0 0 0 12 18a.75.75 0 0 0 0 1.5.375.375 0 1 1 0-.75.375.375 0 0 1 0 .75.75.75 0 0 0 0-1.5m5.845-3.97a.75.75 0 1 0 1.06-1.06.75.75 0 0 0-1.06 1.06m.53-1.28a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25.75.75 0 0 0 0 1.5.375.375 0 1 1 0-.75.375.375 0 0 1 0 .75.75.75 0 0 0 0-1.5m-.53 6.53a.75.75 0 1 0 1.06-1.06.75.75 0 0 0-1.06 1.06m.53-1.28a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25.75.75 0 0 0 0 1.5.375.375 0 1 1 0-.75.375.375 0 0 1 0 .75.75.75 0 0 0 0-1.5"
               ></path>
+              <span class="date-display">Select Date</span>
+              <div class="date-selector">
+                <!-- <input type="date" /> -->
+                <div class="month-picker">
+                  <button type="button" class="control prev">&lt;</button>
+                  <span class="month"></span>
+                  <button type="button" class="control next">&gt;</button>
+                </div>
+                <div class="date-picker">
+                  <ul class="date-name">
+                    <li>Su</li>
+                    <li>Mo</li>
+                    <li>Tu</li>
+                    <li>We</li>
+                    <li>Th</li>
+                    <li>Fr</li>
+                    <li>Sa</li>
+                  </ul>
+                  <ul class="date">
+                    <li class="hide placeholder"></li>
+                    <li class="hide placeholder"></li>
+                    <li class="hide placeholder"></li>
+                    <li class="hide placeholder"></li>
+                    <li class="hide placeholder"></li>
+                    <li class="hide placeholder"></li>
+                    <li class="date-item">1</li>
+                    <li class="date-item">2</li>
+                    <li class="date-item">3</li>
+                    <li class="date-item">4</li>
+                    <li class="date-item">5</li>
+                    <li class="date-item">6</li>
+                    <li class="date-item">7</li>
+                    <li class="date-item">8</li>
+                    <li class="date-item">9</li>
+                    <li class="date-item">10</li>
+                    <li class="date-item">11</li>
+                    <li class="date-item">12</li>
+                    <li class="date-item">13</li>
+                    <li class="date-item">14</li>
+                    <li class="date-item">15</li>
+                    <li class="date-item">16</li>
+                    <li class="date-item">17</li>
+                    <li class="date-item">18</li>
+                    <li class="date-item">19</li>
+                    <li class="date-item">20</li>
+                    <li class="date-item">21</li>
+                    <li class="date-item">22</li>
+                    <li class="date-item">23</li>
+                    <li class="date-item">24</li>
+                    <li class="date-item">25</li>
+                    <li class="date-item">26</li>
+                    <li class="date-item">27</li>
+                    <li class="date-item">28</li>
+                    <li class="date-item">29</li>
+                    <li class="date-item">30</li>
+                    <li class="date-item">31</li>
+                  </ul>
+                </div>
+              </div>
             </svg>
           </div>
           <div class="formgroup">

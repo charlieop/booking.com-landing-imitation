@@ -73,13 +73,15 @@
   }
 
   .formgroup {
+    position: relative;
+
     background: var(--clr-bg);
     width: 100%;
     height: 100%;
 
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.75rem;
 
     padding: 1rem;
 
@@ -93,6 +95,92 @@
       border: none;
       outline: none;
       font-size: var(--fs-small);
+      width: 100%;
+    }
+  }
+}
+
+#select-date {
+  cursor: pointer;
+}
+
+.date-selector {
+  display: none;
+  position: absolute;
+  background: var(--clr-bg);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  top: 100%;
+  margin-top: 0.5rem;
+
+  input {
+    display: none;
+  }
+
+  .month-picker {
+    height: 2.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--clr-bg--muted);
+
+    .month {
+      font-weight: 500;
+    }
+
+    button {
+      height: 100%;
+      padding: 0.5rem 2rem;
+      background: var(--clr-bg);
+      border: none;
+      transition: var(--transition);
+    }
+    button:hover {
+      filter: brightness(0.9);
+    }
+  }
+
+  .date-picker {
+    padding: 1rem;
+    text-align: center;
+    > * {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 0.25rem;
+      place-items: center;
+    }
+
+    .date-name {
+      font-weight: 500;
+      margin-block: 0 1rem;
+      color: var(--clr-text--muted);
+    }
+
+    .date {
+      li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: var(--clr-bg);
+        width: 2.25rem;
+        height: 2.25rem;
+        cursor: pointer;
+        border-radius: 999rem;
+        transition: filter 0.2s ease;
+      }
+      li:not(.placeholder):hover {
+        filter: brightness(0.9);
+      }
+      li.selected {
+        background: var(--clr-accent);
+        color: var(--clr-bg);
+      }
+      .date-item.hide,
+      .placeholder.hide {
+        display: none;
+      }
     }
   }
 }
