@@ -4,27 +4,28 @@ function init() {
   initDestinationsTabs();
   initScrollers();
   initDateSelect();
+  initLzayLoading();
 
-  if (!"loading" in HTMLImageElement.prototype) {
-    console.log(
-      "Browser does not support lazy-loading for images. Fallback to IntersectionObserver."
-    );
-    initLzayLoading();
-  } else {
-    console.log(
-      "Browser supports lazy-loading for images. Using native lazy-loading."
-    );
-    const images = document.querySelectorAll("img");
-    images.forEach((image) => {
-      if (!image.dataset || !image.dataset.src) return;
-      image.classList.add("lazy-img");
-      image.loading = "lazy";
-      image.src = image.dataset.src;
-      image.addEventListener("load", () => {
-        image.classList.remove("lazy-img");
-      });
-    });
-  }
+  // if (!"loading" in HTMLImageElement.prototype) {
+  //   console.log(
+  //     "Browser does not support lazy-loading for images. Fallback to IntersectionObserver."
+  //   );
+  //   initLzayLoading();
+  // } else {
+  //   console.log(
+  //     "Browser supports lazy-loading for images. Using native lazy-loading."
+  //   );
+  //   const images = document.querySelectorAll("img");
+  //   images.forEach((image) => {
+  //     if (!image.dataset || !image.dataset.src) return;
+  //     image.classList.add("lazy-img");
+  //     image.loading = "lazy";
+  //     image.src = image.dataset.src;
+  //     image.addEventListener("load", () => {
+  //       image.classList.remove("lazy-img");
+  //     });
+  //   });
+  // }
 
   document.addEventListener("click", (e) => {
     const dateSelect = document.querySelector("#select-date");
@@ -48,9 +49,9 @@ function initLzayLoading() {
         }
       });
     },
-    {
-      rootMargin: "10% 10% 30% 10%",
-    }
+    // {
+    //   rootMargin: "10% 10% 30% 10%",
+    // }
   );
   const images = document.querySelectorAll("img");
   images.forEach((image) => {
