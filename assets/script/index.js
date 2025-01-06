@@ -5,11 +5,24 @@ function init() {
   initScrollers();
   initDateSelect();
 
-  if (!'loading' in HTMLImageElement.prototype) {
-    console.log('Browser does not support lazy-loading for images.');
+  if (!"loading" in HTMLImageElement.prototype) {
+    console.log(
+      "Browser does not support lazy-loading for images. Fallback to IntersectionObserver."
+    );
+    initLzayLoading();
+  } else {
+    console.log(
+      "Browser supports lazy-loading for images. Using native lazy-loading."
+    );
     const images = document.querySelectorAll("img");
-    images.forEach((img) => {
-      img.src = "";
+    images.forEach((image) => {
+      if (!image.dataset || !image.dataset.src) return;
+      image.classList.add("lazy-img");
+      image.loading = "lazy";
+      image.src = image.dataset.src;
+      image.addEventListener("load", () => {
+        image.classList.remove("lazy-img");
+      });
     });
   }
 
@@ -20,6 +33,33 @@ function init() {
     } else {
       dateSelect.querySelector(".date-selector").style.display = "block";
     }
+  });
+}
+
+function initLzayLoading() {
+  const observer = new IntersectionObserver(
+    (entries, observer) => {
+      entries.forEach(async (entry) => {
+        if (entry.isIntersecting) {
+          const image = entry.target;
+          console.log(image.dataset.src);
+          image.src = image.dataset.src;
+          observer.unobserve(image);
+        }
+      });
+    },
+    {
+      rootMargin: "10% 10% 30% 10%",
+    }
+  );
+  const images = document.querySelectorAll("img");
+  images.forEach((image) => {
+    if (!image.dataset || !image.dataset.src) return;
+    image.classList.add("lazy-img");
+    observer.observe(image);
+    image.addEventListener("load", () => {
+      image.classList.remove("lazy-img");
+    });
   });
 }
 
