@@ -21,9 +21,23 @@
   <body>
     <header>
       <nav class="primary-nav">
+        <div class="logo"><a href="/">Booking.com</a></div>
+        <label>
+          <svg
+            class="mobile hamburger"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="50px"
+          >
+            <path
+              d="M2.25 18.753h19.5a.75.75 0 0 0 0-1.5H2.25a.75.75 0 0 0 0 1.5m0-6h19.5a.75.75 0 0 0 0-1.5H2.25a.75.75 0 0 0 0 1.5m0-6h19.5a.75.75 0 0 0 0-1.5H2.25a.75.75 0 0 0 0 1.5"
+            ></path>
+          </svg>
+          <input type="checkbox" />
+        </label>
+
         <ul>
-          <li class="logo"><a href="/">Booking.com</a></li>
-          <li class="push nav-item" id="currency"><span>CNY</span></li>
+          <li class="nav-item" id="currency"><span>CNY</span></li>
           <li id="set-language" class="nav-item">
             <img
               class="nav-img"
@@ -67,6 +81,10 @@
     </header>
 
     <main>
+      <div class="heading mobile">
+        <h2>Find your next stay</h2>
+        <p>Search deals on hotels, homes, and much more...</p>
+      </div>
       <section class="landing-wrapper">
         <div class="landing">
           <img
@@ -76,14 +94,17 @@
           />
           <div class="landing-content">
             <div>
+              <p class="subtitle mobile">Vacation rentals</p>
               <h1>
                 <p>Travel has never</p>
                 <p>felt this cozy</p>
               </h1>
-              <p class="subtitle">Book an entire place all to yourself</p>
+              <p class="subtitle desktop">
+                Book an entire place all to yourself
+              </p>
             </div>
             <button type="button" class="primary cta">
-              Discover vacation rentals
+              Discover<span class="desktop"> vacation rentals</span>
             </button>
           </div>
         </div>
@@ -111,7 +132,6 @@
               ></path>
               <span class="date-display">Select Date</span>
               <div class="date-selector">
-                <!-- <input type="date" /> -->
                 <div class="month-picker">
                   <button type="button" class="control prev">&lt;</button>
                   <span class="month"></span>
@@ -192,10 +212,19 @@
         <div class="card-wrapper">
           <div class="card">
             <div class="content">
-              <h3>Go for a good time, not a long time</h3>
+              <h3>
+                <span class="desktop">Go for a good time, not a long time</span>
+                <span class="mobile">Small trip. Bug fun.</span>
+              </h3>
               <p>
-                Finish your year with a mini break. Save 15% or more when you
-                book and stay by January 7, 2025.
+                <span class="desktop">
+                  Finish your year with a mini break. Save 15% or more when you
+                  book and stay by January 7, 2025.</span
+                >
+                <span class="mobile"
+                  >Finish your year with a mini break and save at least
+                  15%</span
+                >
               </p>
               <button type="button" class="primary">
                 Find Late Escape Deals
@@ -212,10 +241,16 @@
             <div class="content">
               <h3>Save on stays worldwide</h3>
               <p>
-                Start your year with an adventure, saving 15% or more with Early
-                2025 Deals.
+                <span class="desktop">
+                  Start your year with an adventure, saving 15% or more with
+                  Early 2025 Deals</span
+                >
+                <span class="mobile">Escape with Early2025 Deals</span>
               </p>
-              <button type="button" class="primary">Save 15% or more</button>
+              <button type="button" class="primary">
+                <span class="desktop"> Save 15% or more</span
+                ><span class="mobile"> Find your deal </span>
+              </button>
             </div>
             <div class="img-wrapper">
               <img
@@ -224,7 +259,7 @@
               />
             </div>
           </div>
-          <div class="card">
+          <div class="card desktop">
             <div class="content">
               <h3>Go for a good time, not a long time</h3>
               <p>
@@ -242,7 +277,7 @@
               />
             </div>
           </div>
-          <div class="card">
+          <div class="card desktop">
             <div class="content">
               <h3>Go for a good time, not a long time</h3>
               <p>
@@ -262,7 +297,7 @@
           </div>
         </div>
       </section>
-      <section class="section">
+      <section class="section desktop">
         <div class="heading">
           <h2>Browse by property type</h2>
         </div>
@@ -354,7 +389,7 @@
           </ul>
         </div>
       </section>
-      <section class="section">
+      <section class="section" id="trip-planner">
         <div class="heading">
           <h2>Quick and easy trip planner</h2>
           <p>Pick a vibe and explore the top destinations in China</p>
@@ -416,10 +451,7 @@
             >Relax
           </li>
         </ul>
-        <div
-          class="scroller-wrapper"
-          style="--_height_img: 8.5rem; --_num-cards: 6"
-        >
+        <div class="scroller-wrapper">
           <div class="control scroll-left">&lt;</div>
           <div class="control scroll-right">&gt;</div>
           <ul class="scroller">
@@ -551,15 +583,12 @@
           </ul>
         </div>
       </section>
-      <section class="section">
+      <section class="section" id="explore-china">
         <div class="heading">
           <h2>Explore China</h2>
           <p>These popular destinations have a lot to offer</p>
         </div>
-        <div
-          class="scroller-wrapper"
-          style="--_height_img: 8.5rem; --_num-cards: 6"
-        >
+        <div class="scroller-wrapper">
           <div class="control scroll-left">&lt;</div>
           <div class="control scroll-right">&gt;</div>
           <ul class="scroller">
@@ -686,7 +715,7 @@
           </ul>
         </div>
       </section>
-      <section class="section">
+      <section class="section desktop">
         <div class="heading">
           <h2>Trending destinations</h2>
           <p>Most popular choices for travelers from China</p>
@@ -733,12 +762,12 @@
           </div>
         </div>
       </section>
-      <section class="section">
+      <section class="section" id="unique-properties">
         <div class="heading">
           <h2>Stay at our top unique properties</h2>
           <p>From castles and villas to boats and igloos, we have it all</p>
         </div>
-        <div class="scroller-wrapper" style="--_height_img: 13.125rem">
+        <div class="scroller-wrapper">
           <div class="control scroll-left">&lt;</div>
           <div class="control scroll-right">&gt;</div>
           <ul class="scroller">
@@ -1041,15 +1070,12 @@
           </ul>
         </div>
       </section>
-      <section class="section">
+      <section class="section" id="weekend-deals">
         <div class="heading">
           <h2>Deals for the weekend</h2>
           <p>Save on stays for January 3 - January 5</p>
         </div>
-        <div
-          class="scroller-wrapper"
-          style="--_height_img: 13.125rem; --_content-height: 7.125rem"
-        >
+        <div class="scroller-wrapper">
           <div class="control scroll-left">&lt;</div>
           <div class="control scroll-right">&gt;</div>
           <ul class="scroller">
@@ -1370,7 +1396,7 @@
           </ul>
         </div>
       </section>
-      <section class="section">
+      <section class="section desktop">
         <div class="heading">
           <h2>Homes guests love</h2>
         </div>
@@ -1771,7 +1797,7 @@
           </ul>
         </div>
       </section>
-      <section class="section">
+      <section class="section desktop">
         <div class="heading">
           <h2>Get inspiration for your next trip</h2>
         </div>
@@ -1899,6 +1925,7 @@
                       <li>cottages</li>
                       <li>apartments</li>
                     </ul>
+                    &nbsp;
                   </span>
                 </div>
                 <div>for your next trip</div>
@@ -1926,34 +1953,8 @@
           <li class="tag-item">Places to stay</li>
         </ul>
         <div class="destination-wrapper">
-          <ul>
-            <li><a href="">Lorem, ipsum.</a></li>
-            <li><a href="">Itaque, ducimus!</a></li>
-            <li><a href="">Magnam, numquam?</a></li>
-            <li><a href="">Maiores, velit!</a></li>
-            <li><a href="">Harum, debitis!</a></li>
-            <li><a href="">Quisquam, aspernatur?</a></li>
-            <li><a href="">Fugit, odit?</a></li>
-            <li><a href="">Ab, illum?</a></li>
-            <li><a href="">Repellendus, id?</a></li>
-            <li><a href="">Aliquam, assumenda.</a></li>
-            <li><a href="">Itaque, eaque!</a></li>
-            <li><a href="">Aliquid, hic.</a></li>
-            <li><a href="">Nisi, qui.</a></li>
-            <li><a href="">Aliquid, molestiae!</a></li>
-            <li><a href="">Corrupti, similique!</a></li>
-            <li><a href="">Laboriosam, corrupti.</a></li>
-            <li><a href="">Nihil, non.</a></li>
-            <li><a href="">Ratione, quis.</a></li>
-            <li><a href="">Eius, aliquid!</a></li>
-            <li><a href="">Nam, eum.</a></li>
-            <li><a href="">Maxime, praesentium?</a></li>
-            <li><a href="">Est, quis!</a></li>
-            <li><a href="">Sint, consequatur?</a></li>
-            <li><a href="">Pariatur, error.</a></li>
-            <li><a href="">Doloribus, error.</a></li>
-          </ul>
-          <div class="shwo-more">
+          <ul></ul>
+          <div class="shwo-more desktop">
             <button type="button" class="secondary">+ Show more</button>
           </div>
         </div>
@@ -1993,7 +1994,20 @@
     <footer>
       <div class="links-wrapper">
         <div>
-          <h3>Support</h3>
+          <label>
+            <h3>Support</h3>
+            <svg
+              class="mobile"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="50px"
+            >
+              <path
+                d="M19.268 8.913a.9.9 0 0 1-.266.642l-6.057 6.057A1.3 1.3 0 0 1 12 16c-.35.008-.69-.123-.945-.364L4.998 9.58a.91.91 0 0 1 0-1.284.897.897 0 0 1 1.284 0L12 13.99l5.718-5.718a.897.897 0 0 1 1.284 0 .88.88 0 0 1 .266.642"
+              ></path>
+            </svg>
+            <input type="checkbox" />
+          </label>
           <ul>
             <li><a href="">Lorem, ipsum dolor.</a></li>
             <li><a href="">Deserunt, alias ducimus!</a></li>
@@ -2002,7 +2016,20 @@
           </ul>
         </div>
         <div>
-          <h3>Discover</h3>
+          <label>
+            <h3>Discover</h3>
+            <svg
+              class="mobile"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="50px"
+            >
+              <path
+                d="M19.268 8.913a.9.9 0 0 1-.266.642l-6.057 6.057A1.3 1.3 0 0 1 12 16c-.35.008-.69-.123-.945-.364L4.998 9.58a.91.91 0 0 1 0-1.284.897.897 0 0 1 1.284 0L12 13.99l5.718-5.718a.897.897 0 0 1 1.284 0 .88.88 0 0 1 .266.642"
+              ></path>
+            </svg>
+            <input type="checkbox" />
+          </label>
           <ul>
             <li><a href="">Lorem, ipsum.</a></li>
             <li><a href="">Nisi, ipsa?</a></li>
@@ -2016,7 +2043,20 @@
           </ul>
         </div>
         <div>
-          <h3>Terms and settings</h3>
+          <label>
+            <h3>Terms and settings</h3>
+            <svg
+              class="mobile"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="50px"
+            >
+              <path
+                d="M19.268 8.913a.9.9 0 0 1-.266.642l-6.057 6.057A1.3 1.3 0 0 1 12 16c-.35.008-.69-.123-.945-.364L4.998 9.58a.91.91 0 0 1 0-1.284.897.897 0 0 1 1.284 0L12 13.99l5.718-5.718a.897.897 0 0 1 1.284 0 .88.88 0 0 1 .266.642"
+              ></path>
+            </svg>
+            <input type="checkbox" />
+          </label>
           <ul>
             <li><a href="">Lorem, ipsum dolor.</a></li>
             <li><a href="">Fuga, ipsam explicabo.</a></li>
@@ -2029,7 +2069,20 @@
           </ul>
         </div>
         <div>
-          <h3>Partners</h3>
+          <label>
+            <h3>Partners</h3>
+            <svg
+              class="mobile"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="50px"
+            >
+              <path
+                d="M19.268 8.913a.9.9 0 0 1-.266.642l-6.057 6.057A1.3 1.3 0 0 1 12 16c-.35.008-.69-.123-.945-.364L4.998 9.58a.91.91 0 0 1 0-1.284.897.897 0 0 1 1.284 0L12 13.99l5.718-5.718a.897.897 0 0 1 1.284 0 .88.88 0 0 1 .266.642"
+              ></path>
+            </svg>
+            <input type="checkbox" />
+          </label>
           <ul>
             <li><a href="">Lorem, ipsum.</a></li>
             <li><a href="">Incidunt, repellat?</a></li>
@@ -2038,7 +2091,20 @@
           </ul>
         </div>
         <div>
-          <h3>About</h3>
+          <label>
+            <h3>About</h3>
+            <svg
+              class="mobile"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="50px"
+            >
+              <path
+                d="M19.268 8.913a.9.9 0 0 1-.266.642l-6.057 6.057A1.3 1.3 0 0 1 12 16c-.35.008-.69-.123-.945-.364L4.998 9.58a.91.91 0 0 1 0-1.284.897.897 0 0 1 1.284 0L12 13.99l5.718-5.718a.897.897 0 0 1 1.284 0 .88.88 0 0 1 .266.642"
+              ></path>
+            </svg>
+            <input type="checkbox" />
+          </label>
           <ul>
             <li><a href="">Lorem.</a></li>
             <li><a href="">Quo!</a></li>

@@ -5,6 +5,14 @@ function init() {
   initScrollers();
   initDateSelect();
 
+  if (!'loading' in HTMLImageElement.prototype) {
+    console.log('Browser does not support lazy-loading for images.');
+    const images = document.querySelectorAll("img");
+    images.forEach((img) => {
+      img.src = "";
+    });
+  }
+
   document.addEventListener("click", (e) => {
     const dateSelect = document.querySelector("#select-date");
     if (!dateSelect.contains(e.target)) {
@@ -160,6 +168,14 @@ function initDestinationsTabs() {
   const destinations = document.querySelector(
     "#destinations .destination-wrapper ul"
   );
+
+  DESTINATIONS[0].forEach((destination) => {
+    const li = document.createElement("li");
+    const a = document.createElement("a");
+    a.textContent = destination;
+    li.appendChild(a);
+    destinations.appendChild(li);
+  });
 
   tabs.forEach((tab, index) => {
     tab.addEventListener("click", () => {
